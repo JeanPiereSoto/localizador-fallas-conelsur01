@@ -16,7 +16,7 @@ st.divider()
 # =========================================================
 # 2. CARGAR EXCEL REAL
 # =========================================================
-ruta_excel = r"C:\Users\practica.jeanpiere\Downloads\KMZ LINEAS CNS\consolidado_total.xlsx"  # ← CAMBIA ESTA RUTA
+ruta_excel = r"C:\Users\practica.jeanpiere\Downloads\KMZ LINEAS CNS\consolidado_total.xlsx"
 
 df = pd.read_excel(ruta_excel)
 
