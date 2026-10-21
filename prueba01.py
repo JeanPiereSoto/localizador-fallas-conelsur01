@@ -14,8 +14,14 @@ import requests
 # 0. COLORES DE MARCA CONELSUR
 # =========================================================
 AZUL_CONELSUR = "#0B3088"
+AZUL_CONELSUR_OSCURO = "#082564"
+AZUL_CONELSUR_CLARO = "#E9EEFA"
 VERDE_CONELSUR = "#00A651"
+VERDE_CONELSUR_OSCURO = "#00803D"
+VERDE_CONELSUR_CLARO = "#E3F7EC"
 GRIS_CLARO = "#F5F7FA"
+GRIS_TEXTO = "#4A4F57"
+GRIS_BORDE = "#E3E6EC"
 
 COLORES_TIPO = {
     "Poblado": "#FF8C00",
@@ -40,12 +46,10 @@ st.set_page_config(
 # =========================================================
 # 1. ESTILOS DE MARCA (CSS) — el tema base (colores, fuente)
 #    se fija en .streamlit/config.toml para los widgets nativos;
-#    aquí se profundiza con tipografía corporativa (Google Fonts)
-#    y color consistente en pestañas, checkboxes, sliders, etc.
+#    aquí se profundiza con tipografía corporativa (Google Fonts),
+#    un panel lateral tipo tarjeta, tarjetas de indicadores (KPI),
+#    y color consistente en pestañas, botones, inputs y alertas.
 # =========================================================
-VERDE_CONELSUR_OSCURO = "#00803D"
-AZUL_CONELSUR_CLARO = "#E9EEFA"
-
 st.markdown(
     f"""
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,27 +71,49 @@ st.markdown(
             background-color: {GRIS_CLARO};
         }}
 
+        /* ---- Barra superior con degradado de marca ---- */
+        .conelsur-gradiente {{
+            height: 6px;
+            width: 100%;
+            background: linear-gradient(90deg, {AZUL_CONELSUR} 0%, {AZUL_CONELSUR} 55%, {VERDE_CONELSUR} 100%);
+            border-radius: 0 0 4px 4px;
+            margin-bottom: 0;
+        }}
+
         /* ---- Encabezado ---- */
         .conelsur-header {{
             background-color: #FFFFFF;
-            padding: 16px 24px;
-            border-bottom: 4px solid {VERDE_CONELSUR};
+            padding: 18px 28px;
             display: flex;
             align-items: center;
-            gap: 20px;
-            margin-bottom: 24px;
+            gap: 22px;
+            margin-bottom: 20px;
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 3px 14px rgba(11, 48, 136, 0.10);
         }}
-        .conelsur-header img {{ height: 48px; }}
+        .conelsur-header img {{ height: 46px; }}
+        .conelsur-header .titulo-wrap {{ display: flex; flex-direction: column; gap: 2px; }}
         .conelsur-header h1 {{
             color: {AZUL_CONELSUR};
-            font-size: 26px;
+            font-size: 24px;
             margin: 0;
+            letter-spacing: -0.2px;
         }}
         .conelsur-header p {{
-            color: #555555;
+            color: {GRIS_TEXTO};
             margin: 0;
-            font-size: 14px;
+            font-size: 13.5px;
             font-family: 'Inter', sans-serif;
+        }}
+        .conelsur-badge {{
+            margin-left: auto;
+            background-color: {VERDE_CONELSUR_CLARO};
+            color: {VERDE_CONELSUR_OSCURO};
+            font-size: 12px;
+            font-weight: 600;
+            padding: 5px 12px;
+            border-radius: 20px;
+            white-space: nowrap;
         }}
 
         h2, h3 {{ color: {AZUL_CONELSUR}; }}
@@ -95,16 +121,51 @@ st.markdown(
         /* ---- Panel lateral tipo tarjeta ---- */
         [data-testid="column"]:first-of-type {{
             background-color: #FFFFFF;
+            border-radius: 14px;
+            padding: 20px 22px 26px 22px;
+            box-shadow: 0 2px 12px rgba(11, 48, 136, 0.08);
+            border: 1px solid {GRIS_BORDE};
+        }}
+
+        /* ---- Tarjetas de indicadores (KPI) ---- */
+        .kpi-fila {{ display: flex; gap: 12px; margin-bottom: 18px; flex-wrap: wrap; }}
+        .kpi-card {{
+            flex: 1;
+            min-width: 140px;
+            background-color: #FFFFFF;
             border-radius: 12px;
-            padding: 18px 20px 24px 20px;
-            box-shadow: 0 2px 10px rgba(11, 48, 136, 0.08);
+            padding: 14px 16px;
+            box-shadow: 0 2px 10px rgba(11, 48, 136, 0.07);
+            border-top: 3px solid {VERDE_CONELSUR};
+        }}
+        .kpi-card .kpi-valor {{
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: {AZUL_CONELSUR};
+            line-height: 1.1;
+        }}
+        .kpi-card .kpi-etiqueta {{
+            font-size: 12.5px;
+            color: {GRIS_TEXTO};
+            margin-top: 4px;
+        }}
+
+        /* ---- Contenedor del mapa ---- */
+        .mapa-card {{
+            background-color: #FFFFFF;
+            border-radius: 14px;
+            padding: 10px;
+            box-shadow: 0 2px 12px rgba(11, 48, 136, 0.08);
+            border: 1px solid {GRIS_BORDE};
+            margin-bottom: 14px;
         }}
 
         /* ---- Botones ---- */
         .stButton > button, .stDownloadButton > button {{
             background-color: {AZUL_CONELSUR};
             color: white;
-            border-radius: 6px;
+            border-radius: 7px;
             border: none;
             font-weight: 500;
         }}
@@ -129,7 +190,7 @@ st.markdown(
             font-weight: 600;
         }}
 
-        /* ---- Checkboxes, sliders, radios con acento de marca ---- */
+        /* ---- Checkboxes y sliders con acento de marca ---- */
         input[type="checkbox"] {{ accent-color: {VERDE_CONELSUR}; }}
         div[data-baseweb="slider"] div[role="slider"] {{
             background-color: {VERDE_CONELSUR} !important;
@@ -147,46 +208,83 @@ st.markdown(
             box-shadow: 0 0 0 1px {AZUL_CONELSUR} !important;
         }}
 
-        /* ---- Alertas con acento de marca a la izquierda ---- */
+        /* ---- Alertas con acento de marca ---- */
         div[data-testid="stAlertContainer"] {{
             border-left: 6px solid {VERDE_CONELSUR};
-            border-radius: 6px;
+            border-radius: 8px;
         }}
 
-        /* ---- Expanders y subheaders con tono de marca ---- */
+        /* ---- Tarjeta de ubicación estimada ---- */
+        .ubicacion-card {{
+            background-color: {VERDE_CONELSUR_CLARO};
+            border: 1px solid {VERDE_CONELSUR};
+            border-radius: 10px;
+            padding: 14px 16px;
+            margin: 10px 0 16px 0;
+        }}
+        .ubicacion-card .titulo {{
+            color: {VERDE_CONELSUR_OSCURO};
+            font-weight: 600;
+            font-size: 14.5px;
+            margin-bottom: 4px;
+        }}
+        .ubicacion-card .detalle {{
+            color: {GRIS_TEXTO};
+            font-size: 13.5px;
+            line-height: 1.5;
+        }}
+
+        /* ---- Expanders y subheaders ---- */
         details > summary {{
             color: {AZUL_CONELSUR};
             font-weight: 600;
         }}
 
         /* ---- Leyenda de restricciones ---- */
+        .leyenda-card {{
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            padding: 12px 16px;
+            box-shadow: 0 2px 10px rgba(11, 48, 136, 0.06);
+            border: 1px solid {GRIS_BORDE};
+        }}
+        .leyenda-titulo {{
+            font-size: 12.5px;
+            font-weight: 600;
+            color: {AZUL_CONELSUR};
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            margin-bottom: 8px;
+        }}
         .leyenda-item {{
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            margin-right: 14px;
+            margin-right: 16px;
+            margin-bottom: 4px;
             font-size: 13px;
-            color: #222222;
+            color: {GRIS_TEXTO};
             font-family: 'Inter', sans-serif;
         }}
         .leyenda-swatch {{
-            width: 14px;
-            height: 14px;
-            border-radius: 3px;
+            width: 13px;
+            height: 13px;
+            border-radius: 4px;
             display: inline-block;
         }}
 
         /* ---- Pie de página de marca ---- */
         .conelsur-footer {{
-            margin-top: 28px;
-            padding: 10px 0;
+            margin-top: 26px;
+            padding: 12px 0;
             text-align: center;
             font-size: 12px;
-            color: #8A8A8A;
-            border-top: 1px solid #E0E0E0;
+            color: #9AA0A8;
+            border-top: 1px solid {GRIS_BORDE};
             font-family: 'Inter', sans-serif;
         }}
     </style>
+    <div class="conelsur-gradiente"></div>
     """,
     unsafe_allow_html=True,
 )
@@ -207,10 +305,11 @@ if logo_b64:
         f"""
         <div class="conelsur-header">
             <img src="data:image/jpeg;base64,{logo_b64}" alt="Conelsur">
-            <div>
+            <div class="titulo-wrap">
                 <h1>Centro de Control: Localizador de Fallas Georreferenciado</h1>
                 <p>Herramienta analítica para la optimización de tiempos de respuesta post-falla</p>
             </div>
+            <span class="conelsur-badge">● SEIN en línea</span>
         </div>
         """,
         unsafe_allow_html=True,
@@ -257,42 +356,6 @@ def punto_en_distancia(df_linea, dist_m):
     return lat, lon
 
 
-PATRON_FILA_EMERGENCIAS = re.compile(
-    r'<th scope="row"[^>]*>\d+</th>\s*'
-    r'<td[^>]*><span>(\d+)</span></td>\s*'
-    r'<td[^>]*><span>([^<]+)</span></td>\s*'
-    r'<td[^>]*emergency-direction"><p[^>]*>(.*?)</p></td>\s*'
-    r'<td[^>]*><i[^>]*></i><span>(.*?)</span></td>\s*'
-    r'<td[^>]*>\s*<span class="badge[^"]*"><i[^>]*></i><span>([^<]+)</span></span>\s*</td>\s*'
-    r'<td[^>]*>\s*<ul[^>]*>(.*?)</ul>\s*</td>',
-    re.DOTALL,
-)
-
-
-def parsear_lista_emergencias(html):
-    """Extrae todas las filas de la tabla de '/24horas' (varias emergencias a la vez)."""
-    filas = PATRON_FILA_EMERGENCIAS.findall(html)
-    registros = []
-    for parte, fecha_hora, direccion, tipo, estado, maquinas_html in filas:
-        m = re.search(r"\((-?\d+\.?\d*),(-?\d+\.?\d*)\)", direccion)
-        lat = float(m.group(1)) if m and (m.group(1) != "0" or m.group(2) != "0") else None
-        lon = float(m.group(2)) if m and (m.group(1) != "0" or m.group(2) != "0") else None
-        maquinas = re.findall(r"<span>([^<]+)</span>", maquinas_html)
-        registros.append(
-            {
-                "parte": parte,
-                "fecha_hora": fecha_hora.strip(),
-                "direccion": direccion.strip(),
-                "tipo": tipo.strip(),
-                "estado": estado.strip(),
-                "maquinas": ", ".join(maquinas),
-                "lat": lat,
-                "lon": lon,
-            }
-        )
-    return pd.DataFrame(registros)
-
-
 def punto_mas_cercano_en_linea(df_linea, lat, lon):
     """Devuelve (distancia_m, fila) de la torre más cercana de la línea a un punto dado."""
     distancias = distancia_m(df_linea["Latitud"].values, df_linea["Longitud"].values, lat, lon)
@@ -307,7 +370,6 @@ def codigo_de_nombre_linea(nombre_linea):
 
 def codigos_en_texto(texto):
     return set(int(n) for n in re.findall(r"\d+", str(texto)))
-
 
 
 # =========================================================
@@ -346,7 +408,7 @@ except FileNotFoundError:
 col_control, col_mapa = st.columns([1, 3])
 
 with col_control:
-    st.header(" Datos del Evento")
+    st.header("📋 Datos del Evento")
 
     linea_seleccionada = st.selectbox("Seleccione la Línea:", list(datos_lineas.keys()))
     df_linea = datos_lineas[linea_seleccionada]
@@ -381,13 +443,23 @@ with col_control:
         t_anterior = df_antes.iloc[-1] if not df_antes.empty else df_linea.iloc[0]
         t_posterior = df_despues.iloc[0]
 
-    st.success("📍 Ubicación estimada")
-    st.write(f"Coordenadas: {lat_falla:.5f}, {lon_falla:.5f}")
-
     if t_anterior["Torre"] == t_posterior["Torre"]:
-        st.write(f"Falla exacta en torre: {t_anterior['Torre']}")
+        ubicacion_detalle = f"Falla exacta en torre: <b>{t_anterior['Torre']}</b>"
     else:
-        st.write(f"Entre: {t_anterior['Torre']} y {t_posterior['Torre']}")
+        ubicacion_detalle = f"Entre torres <b>{t_anterior['Torre']}</b> y <b>{t_posterior['Torre']}</b>"
+
+    st.markdown(
+        f"""
+        <div class="ubicacion-card">
+            <div class="titulo">📍 Ubicación estimada</div>
+            <div class="detalle">
+                Coordenadas: {lat_falla:.5f}, {lon_falla:.5f}<br>
+                {ubicacion_detalle}
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
     # ---------------------------------------------------
     # Restricciones de la línea seleccionada
@@ -434,19 +506,56 @@ with col_control:
 # 6. MAPA
 # =========================================================
 with col_mapa:
+    # ---------------------------------------------------
+    # Tarjetas de indicadores (KPI) de la línea seleccionada
+    # ---------------------------------------------------
+    n_torres = len(df_linea)
+    longitud_km = df_linea["Distancia_m"].max() / 1000
+    n_restricciones = len(df_rest_linea) if not df_rest_linea.empty else 0
+
+    st.markdown(
+        f"""
+        <div class="kpi-fila">
+            <div class="kpi-card">
+                <div class="kpi-valor">{n_torres}</div>
+                <div class="kpi-etiqueta">Torres en la línea</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-valor">{longitud_km:.1f} km</div>
+                <div class="kpi-etiqueta">Longitud total</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-valor">{n_restricciones}</div>
+                <div class="kpi-etiqueta">Restricciones registradas</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-valor">{distancia_falla_km:.2f} km</div>
+                <div class="kpi-etiqueta">Distancia de falla</div>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
     m = folium.Map(location=[lat_falla, lon_falla], zoom_start=11)
 
     coord_linea = list(zip(df_linea["Latitud"], df_linea["Longitud"]))
     folium.PolyLine(coord_linea, color=AZUL_CONELSUR, weight=4).add_to(m)
 
     for _, fila in df_linea.iterrows():
+        popup_torre = (
+            f'<div style="font-family:Inter,Arial,sans-serif;">'
+            f'<b style="color:{AZUL_CONELSUR};">{fila["Torre"]}</b><br>'
+            f'Km {fila["Distancia_m"]/1000:.2f}</div>'
+        )
         folium.CircleMarker(
             location=[fila["Latitud"], fila["Longitud"]],
             radius=4,
             color=AZUL_CONELSUR,
             fill=True,
             fill_color="white",
-            popup=f"{fila['Torre']} (Km {fila['Distancia_m']/1000:.2f})",
+            fill_opacity=1,
+            popup=popup_torre,
         ).add_to(m)
 
     if mostrar_restricciones and not df_rest_linea.empty:
@@ -454,10 +563,11 @@ with col_mapa:
         for _, r in df_rest_linea.iterrows():
             color = COLORES_TIPO.get(r["Tipo"], "#808080")
             popup_html = (
-                f"<b>{r['Tipo']}</b> ({r['Fuente']})<br>"
-                f"{r['Zona_Geografica']}<br>"
-                f"{r['Texto_Original']}<br>"
-                f"D. horizontal: {r['Distancia_Horizontal_m']:.0f} m"
+                f'<div style="font-family:Inter,Arial,sans-serif; font-size:13px;">'
+                f'<b style="color:{color};">{r["Tipo"]}</b> ({r["Fuente"]})<br>'
+                f'{r["Zona_Geografica"]}<br>'
+                f'{r["Texto_Original"]}<br>'
+                f'D. horizontal: {r["Distancia_Horizontal_m"]:.0f} m</div>'
             )
             if r["Acumulado_Inicio_m"] == r["Acumulado_Fin_m"]:
                 folium.CircleMarker(
@@ -478,19 +588,42 @@ with col_mapa:
                     popup=popup_html,
                 ).add_to(capa_restricciones)
         capa_restricciones.add_to(m)
+        folium.LayerControl(collapsed=False).add_to(m)
 
+    popup_falla = (
+        f'<div style="font-family:Inter,Arial,sans-serif;">'
+        f'<b style="color:{VERDE_CONELSUR_OSCURO};">⚡ Falla estimada</b><br>'
+        f'Km {distancia_falla_km:.2f}</div>'
+    )
     folium.Marker(
         location=[lat_falla, lon_falla],
-        popup=f"Falla Km {distancia_falla_km:.2f}",
+        popup=popup_falla,
         icon=folium.Icon(color="green", icon="bolt", prefix="fa"),
     ).add_to(m)
 
-    st_folium(m, width="100%", height=600)
+    st.markdown('<div class="mapa-card">', unsafe_allow_html=True)
+    st_folium(m, width="100%", height=580)
+    st.markdown("</div>", unsafe_allow_html=True)
 
     if mostrar_restricciones and not df_rest_linea.empty:
         tipos_presentes = sorted(df_rest_linea["Tipo"].unique())
-        leyenda_html = "".join(
+        leyenda_items = "".join(
             f'<span class="leyenda-item"><span class="leyenda-swatch" '
             f'style="background-color:{COLORES_TIPO.get(t, "#808080")}"></span>{t}</span>'
             for t in tipos_presentes
         )
+        st.markdown(
+            f"""
+            <div class="leyenda-card">
+                <div class="leyenda-titulo">Leyenda de restricciones</div>
+                {leyenda_items}
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+st.markdown(
+    '<div class="conelsur-footer">CONELSUR — Centro de Control de Operaciones de Transmisión · '
+    'Sistema de Localización de Fallas SEIN</div>',
+    unsafe_allow_html=True,
+)
