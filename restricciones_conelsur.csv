@@ -1,0 +1,1444 @@
+﻿Codigo_Linea,Torre_Origen,Acumulado_Inicio_m,Acumulado_Fin_m,Zona_Geografica,Fuente,Tipo,Distancia_Horizontal_m,Requiere_Revision,Texto_Original
+L2257,T08,3851.266,5121.236,San Emilio / Utcuyacu,Obstaculo,Cultivo,0.0,False,Sembríos bajo la línea
+L2257,T10,5865.536,6206.066,Viscatan,Obstaculo,Poblado,30.0,False,Poblado 30 m D.Horizontal
+L2257,T13,7170.1359999999995,7543.196,Viscatan,Obstaculo,Poblado,60.0,False,Poblado 60 m D.Horizontal
+L2257,T14,7543.196,8329.636,Viscatan,Obstaculo,Poblado,40.0,False,Poblado 40 m D.Horizontal
+L2257,T14,7543.196,8329.636,Viscatan,Cruce,Carretera,,True,carretera afirmada
+L2257,T15,8329.636,9222.476,Pucara,Cruce,Carretera,,True,carretera afirmada
+L2257,T16,9222.476,9839.436000000002,Pucara,Cruce,Carretera,,True,carretera afirmada
+L2257,T18,10156.146,11037.946,Viscatan,Cruce,Rio,,True,río Ayramayo / ingreso SIMSA
+L2257,T21,11961.655999999999,12773.266,Shincayacu,Obstaculo,Poblado,30.0,False,Poblado 30 m D.Horizontal
+L2257,T22,12773.266,13280.166,Shincayacu,Cruce,Carretera,,True,carretera afirmada
+L2257,T23,13280.166,13686.875999999998,Shincayacu,Obstaculo,Poblado,25.0,False,Poblado 25 m D.Horizontal
+L2257,T23,13280.166,13686.875999999998,Shincayacu,Cruce,Carretera,,True,carretera afirmada
+L2257,T25,13975.285999999998,14366.215999999999,Shincayacu,Obstaculo,Cultivo,0.0,False,Sembríos bajo la línea
+L2257,T25,13975.285999999998,14366.215999999999,Shincayacu,Cruce,Carretera,,True,carretera afirmada
+L2257,T26,14366.215999999999,14465.815999999999,Shincayacu,Obstaculo,Cultivo,0.0,False,Sembríos bajo la línea
+L2257,T33,17324.375999999997,18154.785999999996,Chincana Alta,Obstaculo,Cultivo,0.0,False,Sembríos bajo la línea
+L2257,T33,17324.375999999997,18154.785999999996,Chincana Alta,Cruce,Carretera,,True,carretera afirmada
+L2257,T34,18154.785999999996,18828.755999999998,Unión Asociados,Obstaculo,Cultivo,0.0,False,Sembríos bajo la línea
+L2257,T34,18154.785999999996,18828.755999999998,Unión Asociados,Cruce,Carretera,,True,carretera afirmada
+L2257,T40,21034.066,21233.396,Chalhuapuquio,Obstaculo,Cultivo,0.0,False,Sembríos bajo la línea
+L2257,T41,21233.396,21554.086,Chalhuapuquio,Obstaculo,Cultivo,0.0,False,Sembríos bajo la línea
+L2257,T44,22466.505999999998,23584.555999999997,Chalhuapuquio,Cruce,Carretera,,True,carretera afirmada
+L2257,T53,28052.895999999997,28820.445999999996,San José de Utcuyacu,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L2257,T53,28052.895999999997,28820.445999999996,San José de Utcuyacu,Cruce,Carretera,,True,río Tarma / Carretera Central
+L2257,T55,29137.915999999997,29497.175999999996,Utcuyacu Yanango,Cruce,Carretera,,True,río Tarma / Carretera Central
+L2256,1,39.858,368.66,YANANGO,Obstaculo,Poblado,25.0,False,Poblado 25 m D.Horizontal
+L2256,1,39.858,368.66,YANANGO,Cruce,Carretera,,True,Carretera Central
+L2256,2,368.66,1300.013,YANANGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea.
+L2256,2,368.66,1300.013,YANANGO,Cruce,Rio,,True,río Tarma
+L2256,3,1300.013,2237.728,YANANGO,Cruce,Carretera,,True,Carretera Central
+L2256,5,3098.795996033873,4179.919995421901,YANANGO,Obstaculo,Carretera,,True,Carretera Central a 25 m D Horizonal
+L2256,5,3098.795996033873,4179.919995421901,YANANGO,Cruce,Rio,,True,río Yanango
+L2256,9,5347.08299280853,6457.375991706142,CHIQUISTAMBO - PALCA,Obstaculo,Poblado,130.0,False,Población a 130 m D Horizontal
+L2256,17,10081.483988595364,10393.554987773872,MATICHACRA - PALCA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,18,10393.554987773872,10803.277988652828,MATICHACRA - PALCA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,19,10803.277988652828,11409.955987797128,MATICHACRA - PALCA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,20,11409.955987797128,11476.85599084767,SANTA ROSA - PALCA ,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,21,11476.85599084767,11699.935995442554,SANTA ROSA - PALCA ,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,22,11699.935995442554,11828.125995562159,SANTA ROSA - PALCA ,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,23,11828.125995562159,12073.125992229461,SANTA ROSA - PALCA ,Obstaculo,Poblado,20.0,False,Poblado 20 m D.Horizontal / sembrío bajo la línea
+L2256,24,12073.125992229461,13638.955991868672,SANTA ROSA - PALCA ,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,24,12073.125992229461,13638.955991868672,SANTA ROSA - PALCA ,Cruce,Carretera,,True,carretera afirmada
+L2256,25,13638.955991868672,14071.865988792102,RANRAPATA - PALCA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,25,13638.955991868672,14071.865988792102,RANRAPATA - PALCA,Cruce,Carretera,,True,carretera afirmada
+L2256,26,14071.865988792102,14352.335991510863,VALDIVIA - PALCA ,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,27,14352.335991510863,14827.985993104343,VALDIVIA - PALCA ,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,31,16005.39598918348,17362.165987656565,VALDIVIA - PALCA ,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,31,16005.39598918348,17362.165987656565,VALDIVIA - PALCA ,Cruce,Carretera,,True,carretera central / río Tarma
+L2256,32,17362.165987656565,18024.57598664496,VALDIVIA - PALCA ,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,33,18024.57598664496,18386.56599029509,PATAY - PALCA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,33,18024.57598664496,18386.56599029509,PATAY - PALCA,Cruce,Carretera,,True,carretera a Patay
+L2256,34,18386.56599029509,18693.65598943776,PATAY - PALCA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,35,18693.65598943776,19104.765985568123,PATAY - PALCA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,36,19104.765985568123,19213.66598836558,PATAY - PALCA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,37,19213.66598836558,19542.285991140212,PATAY - PALCA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,40,20543.58599321945,21297.629081981297,YANAMA,Cruce,Carretera,,True,carretera afirmada
+L2256,41,21297.629081981297,21519.607081636947,YANAMA,Cruce,Carretera,,True,carretera afirmada
+L2256,42,21519.607081636947,23078.627081957515,YANAMA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,43,23078.627081957515,23411.80208122885,HUARACAYO - PALCA.,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,43,23078.627081957515,23411.80208122885,HUARACAYO - PALCA.,Cruce,Carretera,,True,carretera afirmada
+L2256,44,23411.80208122885,23680.945081963262,HUARACAYO - PALCA.,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,45,23680.945081963262,23804.011082144374,HUARACAYO - PALCA.,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,46,23804.011082144374,24604.52508216187,HUARACAYO - PALCA.,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,47,24604.52508216187,24822.284081677248,HUARACAYO - PALCA.,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,48,24822.284081677248,25252.881081407748,HUARACAYO - PALCA.,Obstaculo,Poblado,40.0,False,Poblado 40 m D.Horizontal
+L2256,48,24822.284081677248,25252.881081407748,HUARACAYO - PALCA.,Cruce,Carretera,,True,carretera afirmada
+L2256,49,25252.881081407748,25494.750080365488,PROGRESO - ACOBAMBA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,49,25252.881081407748,25494.750080365488,PROGRESO - ACOBAMBA,Cruce,Carretera,,True,carretera afirmada
+L2256,50,25494.750080365488,25787.810081186373,PROGRESO - ACOBAMBA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,51,25787.810081186373,26115.88708128216,PROGRESO - ACOBAMBA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,51,25787.810081186373,26115.88708128216,PROGRESO - ACOBAMBA,Cruce,Carretera,,True,carretera afirmada
+L2256,52,26115.88708128216,26344.338080439462,PROGRESO - ACOBAMBA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,53,26344.338080439462,27770.52608142053,PROGRESO - ACOBAMBA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal / Bosque de árboles
+L2256,53,26344.338080439462,27770.52608142053,PROGRESO - ACOBAMBA,Cruce,Carretera,,True,carretera afirmada
+L2256,54,27770.52608142053,28031.445082523667,HUARACAYO - PALCA.,Obstaculo,Bosque,,True,Bosque de árboles
+L2256,56,28427.742082523666,28821.787082523664,ACOBAMBA ,Cruce,Carretera,,True,carretera afirmada
+L2256,58,28994.15708151999,29708.587079538578,ACOBAMBA ,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,59,29708.587079538578,30070.402077749415,ACOBAMBA ,Obstaculo,Poblado,24.0,False,Poblado 24 m D.Horizontal
+L2256,59,29708.587079538578,30070.402077749415,ACOBAMBA ,Cruce,Carretera,,True,carretera central
+L2256,60,30070.402077749415,30460.21707693845,TACNA - ACOBAMBA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2256,60,30070.402077749415,30460.21707693845,TACNA - ACOBAMBA,Cruce,Carretera,,True,carretera afirmada
+L2256,63,31090.994077429183,31851.158287965805,TACNA - ACOBAMBA,Cruce,Carretera,,True,carretera afirmada
+L2256,66,32688.387597112644,33232.704086023194,TUPIN - TARMA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,66,32688.387597112644,33232.704086023194,TUPIN - TARMA,Cruce,Carretera,,True,carretera central
+L2256,67,33232.704086023194,33791.21950971378,TUPIN - TARMA,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal / Sembrio bajo la línea
+L2256,67,33232.704086023194,33791.21950971378,TUPIN - TARMA,Cruce,Carretera,,True,carretera a Tupin
+L2256,68,33791.21950971378,34374.582492536196,TUPIN - TARMA,Obstaculo,Cultivo,0.0,False,sembrío bajo la línea
+L2256,68,33791.21950971378,34374.582492536196,TUPIN - TARMA,Cruce,Carretera,,True,carretera afirmada
+L2256,70,34694.57497042653,35653.837968257256,TUPIN - TARMA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2256,70,34694.57497042653,35653.837968257256,TUPIN - TARMA,Cruce,Carretera,,True,carretera central
+L2256,72,36233.775971477444,36834.12796889578,-,Cruce,Carretera,,True,carretera afirmada
+L2256,75,38112.05896898745,38428.05896701742,-,Cruce,Carretera,,True,carretera afirmada
+L2256,76,38428.05896701742,39031.11396402969,NINATAMBO -TARMA,Cruce,Carretera,,True,carretera afirmada
+L2256,78,39294.772959914626,40068.63695705846,NINATAMBO -TARMA,Obstaculo,Cultivo,0.0,False,sembrio bajo la línea
+L2256,78,39294.772959914626,40068.63695705846,NINATAMBO -TARMA,Cruce,Carretera,,True,carretera afirmada
+L2256,79,40068.63695705846,40452.24895697858,NINATAMBO -TARMA,Obstaculo,Cultivo,0.0,False,sembrio bajo la línea
+L2256,80,40452.24895697858,40987.470958612816,NINATAMBO -TARMA,Obstaculo,Cultivo,0.0,False,sembrio bajo la línea
+L2256,81,40987.470958612816,41936.29495878654,OLLUCRO - TARMA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2256,81,40987.470958612816,41936.29495878654,OLLUCRO - TARMA,Cruce,Carretera,,True,carretera central
+L2256,90,44356.09595619955,44932.92895516408,HUASQUI,Cruce,Carretera,,True,carretera afirmada
+L2256,91,44932.92895516408,45828.93295552476,HUASQUI,Obstaculo,Poblado,15.0,False,Poblado a 15 m D Horizontal
+L2256,95,46559.02195944235,47258.58596120403,HUASQUI,Obstaculo,Poblado,118.0,False,Poblado 118 m D.Horizontal
+L2256,141,66241.46869297905,67108.7416931981,LA OROYA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2256,141,66241.46869297905,67108.7416931981,LA OROYA,Cruce,Carretera,,True,carretera central
+L2256,154,71826.08169319808,72793.23169319807,LA OROYA,Obstaculo,Poblado,75.0,False,Poblado 75 m D.Horizontal
+L2256,179,83745.11169319808,84509.09169319808,LA VALANZA - OROYA,Cruce,Carretera,,True,carretera central
+L2256,182,85177.01169319807,85467.24169319807,PACHACHACA,Obstaculo,Otro,,True,laguna
+L2001-2002,4,493.26,560.02,HUINCO,Cruce,Otro,,True,LINEA A.T
+L2001-2002,5,560.02,1271.31,HUINCO,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal
+L2001-2002,9,2358.58,2892.74,HUINCO,Obstaculo,Otro,0.0,False,casa bajo la línea
+L2001-2002,9,2358.58,2892.74,HUINCO,Cruce,Carretera,,True,CARRETERA A HUINCO RIO STA. EULALIA
+L2001-2002,10,2892.74,3506.91,HUANCHUNYA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L2001-2002,11,3506.91,3959.6899999999996,HUANCHUNYA,Obstaculo,Poblado,67.0,False,Poblado 67 m D.Horizontal
+L2001-2002,14,4787.969999999999,5175.169999999999,HUANCHUNYA,Cruce,Carretera,,True,CARRETERA A HUINCO
+L2001-2002,18,5936.459999999999,6648.259999999999,BELLAVISTA,Obstaculo,Poblado,20.0,False,Poblado 20 m D.Horizontal
+L2001-2002,18,5936.459999999999,6648.259999999999,BELLAVISTA,Cruce,Carretera,,True,CARRETERA A HUINCO
+L2001-2002,21,6988.46,7389.93,SAN GERONIMO,Obstaculo,Poblado,30.0,False,Poblado 30 m D.Horizontal
+L2001-2002,21,6988.46,7389.93,SAN GERONIMO,Cruce,Carretera,,True,CARRETERA A HUINCO
+L2001-2002,22,7389.93,8068.72,SAN GERONIMO,Cruce,Rio,,True,RIO STA. EULALIA
+L2001-2002,23,8068.72,8942.12,SAN GERONIMO,Cruce,Rio,,True,RIO STA. EULALIA
+L2001-2002,25,9348.960000000001,9592.960000000001,SAN GERONIMO,Obstaculo,Poblado,55.0,False,Poblado 55 m D.Horizontal
+L2001-2002,25,9348.960000000001,9592.960000000001,SAN GERONIMO,Cruce,Carretera,,True,CARRETERA A HUINCO
+L2001-2002,26,9592.960000000001,9969.460000000001,SAN GERONIMO,Cruce,Carretera,,True,CARRETERA A HUINCO
+L2001-2002,49,18756.77,19491.69,STA. EULALIA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L2001-2002,49,18756.77,19491.69,STA. EULALIA,Cruce,Carretera,,True,CAMINO A LA VENTANA 5
+L2001-2002,52,20262.059999999998,21089.789999999997,MOYOPAMPA NORTE,Cruce,Carretera,,True,CAMINO A TAZA DE MOYOPAMPA
+L2001-2002,53,21089.789999999997,21782.859999999997,MOYOPAMPA NORTE,Cruce,Carretera,,True,CAMINO A TAZA DE MOYOPAMPA
+L2001-2002,55,22364.519999999997,23904.76,CHOSICA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,55,22364.519999999997,23904.76,CHOSICA,Cruce,Otro,,True,TIRO UNILATERAL
+L2001-2002,56,23904.76,25074.89,MOYOPAMPA NORTE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,59,25845.269999999997,26326.089999999997,Yanacoto,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,60,26326.089999999997,27044.689999999995,Yanacoto,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,63,28078.169999999995,29002.739999999994,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,64,29002.739999999994,29526.689999999995,CHACRASANA,Obstaculo,Poblado,100.0,False,Poblado 100 m D.Horizontal
+L2001-2002,72,33312.579999999994,34618.2,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,74,34618.2,34992.35,HUAMPANI,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal
+L2001-2002,76,35533.799999999996,36696.56999999999,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,81,38496.88,39228.079999999994,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,82,39228.079999999994,40084.439999999995,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,83,40084.439999999995,40898.829999999994,ÑAÑA,Obstaculo,Poblado,130.0,False,Poblado 130 m D.Horizontal
+L2001-2002,85,41081.869999999995,41889.95,CARAPONGUILLO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,4,506.26,573.02,HUINCO,Cruce,Otro,,True,LINEA A.T
+L2001-2002,5,573.02,1284.31,HUINCO,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal
+L2001-2002,9,2371.58,2905.74,HUINCO,Obstaculo,Otro,0.0,False,casa bajo la línea
+L2001-2002,9,2371.58,2905.74,HUINCO,Cruce,Carretera,,True,CARRETERA A HUINCO RIO STA. EULALIA
+L2001-2002,10,2905.74,3519.91,HUANCHUNYA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L2001-2002,11,3519.91,3972.6899999999996,HUANCHUNYA,Obstaculo,Poblado,67.0,False,Poblado 67 m D.Horizontal
+L2001-2002,14,4800.969999999999,5188.169999999999,HUANCHUNYA,Cruce,Carretera,,True,CARRETERA A HUINCO
+L2001-2002,18,5949.459999999999,6661.259999999999,BELLAVISTA,Obstaculo,Poblado,20.0,False,Poblado 20 m D.Horizontal
+L2001-2002,18,5949.459999999999,6661.259999999999,BELLAVISTA,Cruce,Carretera,,True,CARRETERA A HUINCO
+L2001-2002,21,7001.46,7402.93,SAN GERONIMO,Obstaculo,Poblado,30.0,False,Poblado 30 m D.Horizontal
+L2001-2002,21,7001.46,7402.93,SAN GERONIMO,Cruce,Carretera,,True,CARRETERA A HUINCO
+L2001-2002,22,7402.93,8081.72,SAN GERONIMO,Cruce,Rio,,True,RIO STA. EULALIA
+L2001-2002,23,8081.72,8955.12,SAN GERONIMO,Cruce,Rio,,True,RIO STA. EULALIA
+L2001-2002,25,9361.960000000001,9605.960000000001,SAN GERONIMO,Obstaculo,Poblado,55.0,False,Poblado 55 m D.Horizontal
+L2001-2002,25,9361.960000000001,9605.960000000001,SAN GERONIMO,Cruce,Carretera,,True,CARRETERA A HUINCO
+L2001-2002,26,9605.960000000001,9982.460000000001,SAN GERONIMO,Cruce,Carretera,,True,CARRETERA A HUINCO
+L2001-2002,49,18769.77,19504.69,STA. EULALIA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L2001-2002,49,18769.77,19504.69,STA. EULALIA,Cruce,Carretera,,True,CAMINO A LA VENTANA 5
+L2001-2002,52,20275.059999999998,21102.789999999997,MOYOPAMPA NORTE,Cruce,Carretera,,True,CAMINO A TAZA DE MOYOPAMPA
+L2001-2002,53,21102.789999999997,21795.859999999997,MOYOPAMPA NORTE,Cruce,Carretera,,True,CAMINO A TAZA DE MOYOPAMPA
+L2001-2002,55,22377.519999999997,23917.76,CHOSICA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,55,22377.519999999997,23917.76,CHOSICA,Cruce,Otro,,True,TIRO UNILATERAL
+L2001-2002,56,23917.76,25087.89,MOYOPAMPA NORTE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,59,25858.269999999997,26339.089999999997,Yanacoto,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,60,26339.089999999997,27057.689999999995,Yanacoto,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,63,28091.169999999995,29015.739999999994,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,64,29015.739999999994,29539.689999999995,CHACRASANA,Obstaculo,Poblado,100.0,False,Poblado 100 m D.Horizontal
+L2001-2002,72,33325.579999999994,34631.2,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,74,34631.2,35005.35,HUAMPANI,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal
+L2001-2002,76,35546.799999999996,36709.56999999999,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,81,38509.88,39241.079999999994,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,82,39241.079999999994,40097.439999999995,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2001-2002,83,40097.439999999995,40911.829999999994,ÑAÑA,Obstaculo,Poblado,130.0,False,Poblado 130 m D.Horizontal
+L2001-2002,85,41094.869999999995,41902.95,CARAPONGUILLO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,94,3459.77,4111.18,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,95,4111.18,4340.58,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,96,4340.58,4575.58,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,97,4575.58,4850.0599999999995,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,98,4850.0599999999995,5131.089999999999,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,99,5131.089999999999,5759.799999999999,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,100,5759.799999999999,6331.299999999999,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,101,6331.299999999999,6627.049999999999,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,102,6627.049999999999,7422.57,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,103,7422.57,7975.36,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,104,7975.36,8564.35,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,105,8564.35,8976.87,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,106,8976.87,9408.87,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,107,9408.87,9817.570000000002,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,108,9817.570000000002,10131.470000000001,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,109,10131.470000000001,10633.470000000001,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,110,10633.470000000001,11205.1,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,111,11205.1,11791.49,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,115,12754.87,13278.810000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,116,13278.810000000001,13978.410000000002,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,117,13978.410000000002,14459.37,CAMPOY,Obstaculo,Poblado,41.0,False,Población a 41 m D.Horizontal
+L2701-2702,122,15498.58,15955.51,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,123,15955.51,16349.81,ZARATE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,123,15955.51,16349.81,ZARATE,Cruce,Otro,,True,Av. Malecón Checa
+L2701-2702,124,16349.81,16645.809999999998,VICENTELO ALTO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,124,16349.81,16645.809999999998,VICENTELO ALTO,Cruce,Otro,,True,Puente Malecón Checa
+L2701-2702,125,16645.809999999998,16940.809999999998,VICENTELO ALTO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,126,16940.809999999998,17233.809999999998,VICENTELO ALTO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,127,17233.809999999998,17523.809999999998,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,128,17523.809999999998,17824.809999999998,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,129,17824.809999999998,18070.809999999998,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,130,18070.809999999998,18317.309999999998,LA MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,131,18317.309999999998,18542.309999999998,LA MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,132,18542.309999999998,18787.309999999998,LA MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,133,18787.309999999998,19057.309999999998,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,134,19057.309999999998,19308.309999999998,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,135,19308.309999999998,19558.309999999998,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,136,19558.309999999998,19826.71,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,137,19826.71,20080.71,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,137,19826.71,20080.71,ANSIETA BAJA,Cruce,Carretera,,True,Carretera Via Expresa
+L2701-2702,138,20080.71,20259.21,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea T138-Subestación
+L2701-2702,94,3459.77,4111.18,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,95,4111.18,4340.58,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,96,4340.58,4575.58,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,97,4575.58,4850.0599999999995,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,98,4850.0599999999995,5131.089999999999,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,99,5131.089999999999,5759.799999999999,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,100,5759.799999999999,6331.299999999999,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,101,6331.299999999999,6627.049999999999,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,102,6627.049999999999,7422.57,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,103,7422.57,7975.36,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,104,7975.36,8564.35,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,105,8564.35,8976.87,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,106,8976.87,9408.87,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,107,9408.87,9817.570000000002,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,108,9817.570000000002,10131.470000000001,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,109,10131.470000000001,10633.470000000001,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,110,10633.470000000001,11205.1,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,111,11205.1,11791.49,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,115,12754.87,13278.810000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,116,13278.810000000001,13978.410000000002,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,117,13978.410000000002,14459.37,CAMPOY,Obstaculo,Poblado,41.0,False,Población a 41 m D.Horizontal
+L2701-2702,122,15498.58,15955.51,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,123,15955.51,16349.81,ZARATE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,123,15955.51,16349.81,ZARATE,Cruce,Otro,,True,Av. Malecón Checa
+L2701-2702,124,16349.81,16645.809999999998,VICENTELO ALTO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,124,16349.81,16645.809999999998,VICENTELO ALTO,Cruce,Otro,,True,Puente Malecón Checa
+L2701-2702,125,16645.809999999998,16940.809999999998,VICENTELO ALTO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,126,16940.809999999998,17233.809999999998,VICENTELO ALTO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,127,17233.809999999998,17523.809999999998,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,128,17523.809999999998,17824.809999999998,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,129,17824.809999999998,18070.809999999998,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,130,18070.809999999998,18317.309999999998,LA MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,131,18317.309999999998,18542.309999999998,LA MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,132,18542.309999999998,18787.309999999998,LA MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,133,18787.309999999998,19057.309999999998,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,134,19057.309999999998,19308.309999999998,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,135,19308.309999999998,19558.309999999998,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,136,19558.309999999998,19826.71,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,137,19826.71,20080.71,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2701-2702,137,19826.71,20080.71,ANSIETA BAJA,Cruce,Carretera,,True,Carretera Via Expresa
+L2701-2702,138,20080.71,20259.21,ANSIETA BAJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea T138-Subestación
+L2008-2009,1(L-2008),257.0,632.0,Barbablanca,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,1(L-2008),257.0,632.0,Barbablanca,Cruce,Rio,,True,Rio STA. Eulalia
+L2008-2009,2,632.0,921.0,Barbablanca,Cruce,Carretera,,True,-Rio STA. Eulalia -Líneas 60 y 10 Kv -Pista Barbablanc. - Carretera a Huinc.
+L2008-2009,3,921.0,1225.0,Cerro Gerrilla,Cruce,Carretera,,True,-Línea 220 Kv. Huinco-Lima (por debajo)                                                -Carretera Huinco
+L2008-2009,16,12263.800000000001,13756.300000000001,Cerros de Chosica,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,17,13756.300000000001,15750.300000000001,Cerro de Quirio,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,19,16416.300000000003,17516.300000000003,C° Santa María,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,21,18224.700000000004,19627.200000000004,C° de Yanacoto y el Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,29,23216.100000000006,24516.100000000006,C° de Huampaní,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,33,25635.300000000007,26884.300000000007,C° Peña Blanco,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,36,28277.000000000007,29212.500000000007,Cerros de Ñaña,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,37,29212.500000000007,30283.100000000006,Cerros de Ñaña,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,1(L-2009),257.0,632.0,Barbablanca,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,1(L-2009),257.0,632.0,Barbablanca,Cruce,Rio,,True,Rio STA. Eulalia
+L2008-2009,2,632.0,921.0,Barbablanca,Cruce,Carretera,,True,-Rio STA. Eulalia -Líneas 60 y 10 Kv -Pista Barbablanc. - Carretera a Huinc.
+L2008-2009,3,921.0,1225.0,Cerro Gerrilla,Cruce,Carretera,,True,-Línea 220 Kv. Huinco-Lima (por debajo)                                                -Carretera Huinco
+L2008-2009,16,12263.800000000001,13756.300000000001,Cerros de Chosica,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,17,13756.300000000001,15750.300000000001,Cerro de Quirio,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,19,16416.300000000003,17516.300000000003,C° Santa María,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,21,18224.700000000004,19627.200000000004,C° de Yanacoto y el Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,29,23216.100000000006,24516.100000000006,C° de Huampaní,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,33,25635.300000000007,26884.300000000007,C° Peña Blanco,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,36,28277.000000000007,29212.500000000007,Cerros de Ñaña,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2008-2009,37,29212.500000000007,30283.100000000006,Cerros de Ñaña,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,2,665.8,1189.5,Cajamarquilla,Cruce,Otro,,True,riel tren Ref. Cajamarquilla
+L2014-2015,42,1189.5,1695.92,Cajamarquilla,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,43,1695.92,1852.72,Cajamarquilla,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,43A,1852.72,2019.92,Cajamarquilla,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,44,2019.92,2337.12,Cajamarquilla,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,45,2337.12,3313.3199999999997,Cajamarquilla,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,46,3313.3199999999997,4119.5199999999995,Nieveria,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,47,4119.5199999999995,5126.219999999999,Nieveria,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,48,5126.219999999999,5654.619999999999,Nieveria,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,49,5654.619999999999,6281.219999999999,Nieveria,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,50,6281.219999999999,6889.0199999999995,Nieveria,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,51,6889.0199999999995,7579.0199999999995,Huachipa,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,52,7579.0199999999995,8476.02,Huachipa,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,53,8476.02,9769.02,Huachipa,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,54b,9890.02,11425.02,Huachipa - Cerro Balcón,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,55,11425.02,12736.02,SJL - Cerro Sauce,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,56,12736.02,13328.02,SJL - Cerro Sauce,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,57,13328.02,13895.42,SJL - Cerro Sauce,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,58,13895.42,14230.42,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,59,14230.42,14405.42,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,60,14405.42,14568.42,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,61,14568.42,14709.42,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,62,14709.42,14850.42,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,63,14850.42,14993.81,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,64A,14993.81,15084.529999999999,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,64B,15084.529999999999,15202.71,SJL - Av. Los Postes Oeste,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,65,15202.71,15467.71,SJL - Av. Los Postes Oeste,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,66,15467.71,15620.21,SJL - San Hilarión,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,67,15620.21,15772.71,SJL - San Hilarión,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,67,15620.21,15772.71,SJL - San Hilarión,Cruce,Carretera,,True,Carretera a Canto Grande
+L2014-2015,68,15772.71,16462.61,SJL - San Hilarión,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,69,16462.61,16990.71,SJL - C°Sn. Gerónimo,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,72,18028.41,18444.81,Independencia - C°Sn. Gerónimo,Obstaculo,Poblado,13.0,False,Poblado 13 m D.Horizontal
+L2014-2015,73,18444.81,18923.510000000002,Independencia - C°Sn. Gerónimo,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,74,18923.510000000002,19164.11,Independencia - C°Sn. Gerónimo,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,75,19164.11,19702.61,Independencia - Pampa de Cueva,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,76,19702.61,19932.61,Independencia - Pampa de Cueva,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,77,19932.61,20246.61,Independencia - Pampa de Cueva,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,78,20246.61,20813.61,Independencia - Pampa de Cueva,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,78,20246.61,20813.61,Independencia - Pampa de Cueva,Cruce,Otro,,True,Líinea telefónica AV. Tupac Amaru Línea telégrafo
+L2014-2015,79,20813.61,21266.55,"Independencia Urb ""Panamericana Norte""",Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,79,20813.61,21266.55,"Independencia Urb ""Panamericana Norte""",Cruce,Otro,,True,Línea 60 Kv. Carret. Ancón
+L2014-2015,80,21266.55,21401.55,"Los Olivos - Urb ""Sol de Oro""",Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,2,665.8,1189.5,Cajamarquilla,Cruce,Otro,,True,riel tren Ref. Cajamarquilla
+L2014-2015,42,1189.5,1695.92,Cajamarquilla,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,43,1695.92,1852.72,Cajamarquilla,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,43A,1852.72,2019.92,Cajamarquilla,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,44,2019.92,2337.12,Cajamarquilla,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,45,2337.12,3313.3199999999997,Cajamarquilla,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,46,3313.3199999999997,4119.5199999999995,Nieveria,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,47,4119.5199999999995,5126.219999999999,Nieveria,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,48,5126.219999999999,5654.619999999999,Nieveria,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,49,5654.619999999999,6281.219999999999,Nieveria,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,50,6281.219999999999,6889.0199999999995,Nieveria,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,51,6889.0199999999995,7579.0199999999995,Huachipa,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,52,7579.0199999999995,8476.02,Huachipa,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,53,8476.02,9769.02,Huachipa,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,54b,9890.02,11425.02,Huachipa - Cerro Balcón,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,55,11425.02,12736.02,SJL - Cerro Sauce,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,56,12736.02,13328.02,SJL - Cerro Sauce,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,57,13328.02,13895.42,SJL - Cerro Sauce,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,58,13895.42,14230.42,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,59,14230.42,14405.42,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,60,14405.42,14568.42,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,61,14568.42,14709.42,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,62,14709.42,14850.42,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,63,14850.42,14993.81,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,64A,14993.81,15084.529999999999,SJL - Av. Los Postes Este,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,64B,15084.529999999999,15202.71,SJL - Av. Los Postes Oeste,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,65,15202.71,15467.71,SJL - Av. Los Postes Oeste,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,66,15467.71,15620.21,SJL - San Hilarión,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,67,15620.21,15772.71,SJL - San Hilarión,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,67,15620.21,15772.71,SJL - San Hilarión,Cruce,Carretera,,True,Carretera a Canto Grande
+L2014-2015,68,15772.71,16462.61,SJL - San Hilarión,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,69,16462.61,16990.71,SJL - C°Sn. Gerónimo,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,72,18028.41,18444.81,Independencia - C°Sn. Gerónimo,Obstaculo,Poblado,13.0,False,Poblado 13 m D.Horizontal
+L2014-2015,73,18444.81,18923.510000000002,Independencia - C°Sn. Gerónimo,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,74,18923.510000000002,19164.11,Independencia - C°Sn. Gerónimo,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,75,19164.11,19702.61,Independencia - Pampa de Cueva,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,76,19702.61,19932.61,Independencia - Pampa de Cueva,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,77,19932.61,20246.61,Independencia - Pampa de Cueva,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,78,20246.61,20813.61,Independencia - Pampa de Cueva,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,78,20246.61,20813.61,Independencia - Pampa de Cueva,Cruce,Otro,,True,Líinea telefónica AV. Tupac Amaru Línea telégrafo
+L2014-2015,79,20813.61,21266.55,"Independencia Urb ""Panamericana Norte""",Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2014-2015,79,20813.61,21266.55,"Independencia Urb ""Panamericana Norte""",Cruce,Otro,,True,Línea 60 Kv. Carret. Ancón
+L2014-2015,80,21266.55,21401.55,"Los Olivos - Urb ""Sol de Oro""",Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,1,56.0,115.0,MOYOPAMPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,2,115.0,298.0,MOYOPAMPA,Obstaculo,Poblado,25.0,False,Poblado 25 m D.Horizontal
+L6011-6020,7,2226.88,3128.07,MOYOPAMPA,Obstaculo,Poblado,90.0,False,Poblado 90 m D.Horizontal
+L6011-6020,11,4984.72,5390.52,MOYOPAMPA,Obstaculo,Poblado,18.0,False,Población 18 m D.Horizontal
+L6011-6020,16,6676.09,7951.52,YANACOTO,Cruce,Carretera,,True,carretera carrozable
+L6011-6020,20,9793.54,9982.86,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,27,9982.86,10074.58,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,28,10074.58,10311.58,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,29,10311.58,10556.58,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,30,10556.58,10797.58,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,31,10797.58,11046.58,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,32,11046.58,11291.58,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,33,11291.58,11540.18,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,34,11540.18,11745.18,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,35,11745.18,11995.48,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,37,12103.98,12382.72,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,38,12382.72,12720.72,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,39,12720.72,13016.449999999999,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,40,13016.449999999999,13117.949999999999,HUAMPANI,Obstaculo,Poblado,10.0,False,Poblado 10 m D.Horizontal
+L6011-6020,41,13117.949999999999,13370.289999999999,HUAMPANI,Obstaculo,Poblado,34.0,False,Poblado 34 m D.Horizontal
+L6011-6020,41A,13370.289999999999,13521.289999999999,HUAMPANI,Obstaculo,Poblado,79.0,False,Poblado 79 m D.Horizontal
+L6011-6020,42,13521.289999999999,13840.189999999999,HUAMPANI,Obstaculo,Poblado,106.0,False,Poblado 106 m D.Horizontal
+L6011-6020,43,14397.769999999999,14530.699999999999,HUAMPANI,Obstaculo,Poblado,78.0,False,Poblado 78 m D.Horizontal
+L6011-6020,43A,14530.699999999999,14709.06,HUAMPANI,Obstaculo,Poblado,85.0,False,Poblado 85 m D.Horizontal
+L6011-6020,44,14709.06,15269.06,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,45,15269.06,15497.73,HUAMPANI,Obstaculo,Poblado,64.0,False,Poblado 64 m D.Horizontal
+L6011-6020,46,15497.73,15784.73,HUAMPANI,Obstaculo,Poblado,15.0,False,Poblado 15 m D.Horizontal
+L6011-6020,47,15784.73,16096.73,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,48,16096.73,16551.31,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,49,16551.31,16760.31,HUAMPANI,Cruce,Carretera,,True,carretera carrozable
+L6011-6020,50,16760.31,17078.22,HUAMPANI,Obstaculo,Otro,30.0,False,casas 30 m DH
+L6011-6020,50,16760.31,17078.22,HUAMPANI,Cruce,Carretera,,True,carretera carrozable
+L6011-6020,52,17299.2,17966.07,HUAMPANI,Obstaculo,Carretera,20.0,False,casas 20 m DH / carretera bajo línea
+L6011-6020,53,17966.07,18308.61,HUAMPANI,Obstaculo,Poblado,147.0,False,Poblado 147 m D.Horizontal
+L6011-6020,54,18308.61,18469.690000000002,HUAMPANI,Obstaculo,Poblado,172.0,False,Poblado 172 m D.Horizontal
+L6011-6020,55,18469.690000000002,19040.190000000002,HUAMPANI,Obstaculo,Poblado,73.0,False,Poblado 73 m D.Horizontal
+L6011-6020,57,19134.260000000002,19352.480000000003,HUAMPANI,Obstaculo,Poblado,33.0,False,Poblado 33 m D.Horizontal
+L6011-6020,57A,19352.480000000003,19565.090000000004,HUAMPANI,Obstaculo,Poblado,13.0,False,Poblado 13 m D.Horizontal
+L6011-6020,57B,19565.090000000004,19747.070000000003,HUAMPANI,Obstaculo,Poblado,59.0,False,Poblado 59 m D.Horizontal
+L6011-6020,58,19747.070000000003,20157.380000000005,HUAMPANI,Obstaculo,Poblado,58.0,False,Poblado 58 m D.Horizontal
+L6011-6020,59,20157.380000000005,20486.380000000005,HUAMPANI,Obstaculo,Poblado,59.0,False,Poblado 59 m D.Horizontal
+L6011-6020,60,20486.380000000005,21150.380000000005,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,61,21150.380000000005,21872.280000000006,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,62,21872.280000000006,22392.930000000008,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,63,22392.930000000008,22904.960000000006,ÑAÑA,Obstaculo,Poblado,34.0,False,Poblado 34 m D.Horizontal
+L6011-6020,67,23510.540000000005,23751.540000000005,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,68,23751.540000000005,24005.540000000005,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,69,24005.540000000005,24274.000000000004,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,70,24274.000000000004,24563.820000000003,CARAPONGO,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal
+L6011-6020,71,24563.820000000003,24795.460000000003,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,72,24795.460000000003,24881.920000000002,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,73,24881.920000000002,25435.83,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,74,25435.83,25667.83,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,75,25667.83,26145.34,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,75,25667.83,26145.34,CARAPONGO,Cruce,Otro,,True,Subestación Portillo
+L6011-6020,76,26145.34,26385.0,CARAPONGO,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal
+L6011-6020,77,26385.0,26986.0,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,78,26986.0,27159.93,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,79,27159.93,27596.78,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,80,27596.78,28261.78,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,81,28261.78,28555.6,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,82,28555.6,28632.6,CARAPONGO,Obstaculo,Poblado,9.0,False,Poblado 9 m D.Horizontal
+L6011-6020,83,28632.6,28867.6,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,84,28867.6,29423.6,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,85,29423.6,29698.6,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,86,29698.6,29948.6,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,87,29948.6,30198.6,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,88,30198.6,30448.6,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,89,30448.6,30698.6,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,90A,30698.6,0.0,HUACHIPA,Obstaculo,Otro,,True,Subestación Gloria
+L6011-6020,1,56.0,115.0,MOYOPAMPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,2,115.0,298.0,MOYOPAMPA,Obstaculo,Poblado,25.0,False,Poblado 25 m D.Horizontal
+L6011-6020,7,2226.88,3128.07,MOYOPAMPA,Obstaculo,Poblado,90.0,False,Poblado 90 m D.Horizontal
+L6011-6020,11,4984.72,5390.52,MOYOPAMPA,Obstaculo,Poblado,18.0,False,Población 18 m D.Horizontal
+L6011-6020,16,6676.09,7951.52,YANACOTO,Cruce,Carretera,,True,carretera carrozable
+L6011-6020,20,9793.54,9982.86,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,27,9982.86,10074.58,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,28,10074.58,10311.58,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,29,10311.58,10556.58,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,30,10556.58,10797.58,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,31,10797.58,11046.58,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,32,11046.58,11291.58,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,33,11291.58,11540.18,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,34,11540.18,11745.18,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,35,11745.18,11995.48,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,37,12103.98,12382.72,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,38,12382.72,12720.72,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,39,12720.72,13016.449999999999,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,40,13016.449999999999,13117.949999999999,HUAMPANI,Obstaculo,Poblado,10.0,False,Poblado 10 m D.Horizontal
+L6011-6020,41,13117.949999999999,13370.289999999999,HUAMPANI,Obstaculo,Poblado,34.0,False,Poblado 34 m D.Horizontal
+L6011-6020,41A,13370.289999999999,13521.289999999999,HUAMPANI,Obstaculo,Poblado,79.0,False,Poblado 79 m D.Horizontal
+L6011-6020,42,13521.289999999999,13840.189999999999,HUAMPANI,Obstaculo,Poblado,106.0,False,Poblado 106 m D.Horizontal
+L6011-6020,43,14397.769999999999,14530.699999999999,HUAMPANI,Obstaculo,Poblado,78.0,False,Poblado 78 m D.Horizontal
+L6011-6020,43A,14530.699999999999,14709.06,HUAMPANI,Obstaculo,Poblado,85.0,False,Poblado 85 m D.Horizontal
+L6011-6020,44,14709.06,15269.06,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,45,15269.06,15497.73,HUAMPANI,Obstaculo,Poblado,64.0,False,Poblado 64 m D.Horizontal
+L6011-6020,46,15497.73,15784.73,HUAMPANI,Obstaculo,Poblado,15.0,False,Poblado 15 m D.Horizontal
+L6011-6020,47,15784.73,16096.73,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,48,16096.73,16551.31,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,49,16551.31,16760.31,HUAMPANI,Cruce,Carretera,,True,carretera carrozable
+L6011-6020,50,16760.31,17078.22,HUAMPANI,Obstaculo,Otro,30.0,False,casas 30 m DH
+L6011-6020,50,16760.31,17078.22,HUAMPANI,Cruce,Carretera,,True,carretera carrozable
+L6011-6020,52,17299.2,17966.07,HUAMPANI,Obstaculo,Carretera,20.0,False,casas 20 m DH / carretera bajo línea
+L6011-6020,53,17966.07,18308.61,HUAMPANI,Obstaculo,Poblado,147.0,False,Poblado 147 m D.Horizontal
+L6011-6020,54,18308.61,18469.690000000002,HUAMPANI,Obstaculo,Poblado,172.0,False,Poblado 172 m D.Horizontal
+L6011-6020,55,18469.690000000002,19040.190000000002,HUAMPANI,Obstaculo,Poblado,73.0,False,Poblado 73 m D.Horizontal
+L6011-6020,57,19134.260000000002,19352.480000000003,HUAMPANI,Obstaculo,Poblado,33.0,False,Poblado 33 m D.Horizontal
+L6011-6020,57A,19352.480000000003,19565.090000000004,HUAMPANI,Obstaculo,Poblado,13.0,False,Poblado 13 m D.Horizontal
+L6011-6020,57B,19565.090000000004,19747.070000000003,HUAMPANI,Obstaculo,Poblado,59.0,False,Poblado 59 m D.Horizontal
+L6011-6020,58,19747.070000000003,20157.380000000005,HUAMPANI,Obstaculo,Poblado,58.0,False,Poblado 58 m D.Horizontal
+L6011-6020,59,20157.380000000005,20486.380000000005,HUAMPANI,Obstaculo,Poblado,59.0,False,Poblado 59 m D.Horizontal
+L6011-6020,60,20486.380000000005,21150.380000000005,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,61,21150.380000000005,21872.280000000006,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,62,21872.280000000006,22392.930000000008,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,63,22392.930000000008,22904.960000000006,ÑAÑA,Obstaculo,Poblado,34.0,False,Poblado 34 m D.Horizontal
+L6011-6020,67,23510.540000000005,23751.540000000005,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,68,23751.540000000005,24005.540000000005,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,69,24005.540000000005,24274.000000000004,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,70,24274.000000000004,24563.820000000003,CARAPONGO,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal
+L6011-6020,71,24563.820000000003,24795.460000000003,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,72,24795.460000000003,24881.920000000002,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,73,24881.920000000002,25435.83,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,74,25435.83,25667.83,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,75,25667.83,26145.34,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,75,25667.83,26145.34,CARAPONGO,Cruce,Otro,,True,Subestación Portillo
+L6011-6020,76,26145.34,26385.0,CARAPONGO,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal
+L6011-6020,77,26385.0,26986.0,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,78,26986.0,27159.93,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,79,27159.93,27596.78,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,80,27596.78,28261.78,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,81,28261.78,28555.6,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,82,28555.6,28632.6,CARAPONGO,Obstaculo,Poblado,9.0,False,Poblado 9 m D.Horizontal
+L6011-6020,83,28632.6,28867.6,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,84,28867.6,29423.6,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,85,29423.6,29698.6,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,86,29698.6,29948.6,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,87,29948.6,30198.6,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,88,30198.6,30448.6,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,89,30448.6,30698.6,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6011-6020,90A,30698.6,,HUACHIPA,Obstaculo,Otro,,True,Subestación Gloria
+L6434-6435,90B,0.0,250.0,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,90B,0.0,250.0,Club El Bosque,Cruce,Otro,,True,Subestación Gloria
+L6434-6435,91,250.0,502.8,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,92,502.8,706.8,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,93A,706.8,752.8,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,93A,706.8,752.8,Club El Bosque,Cruce,Otro,,True,Subestación Huachipa
+L6434-6435,93,752.8,997.8,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,94,997.8,1247.8,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,95,1247.8,1497.8,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,96,1497.8,1706.8,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,97,1706.8,1914.8,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,98,1914.8,2123.3,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,99,2123.3,2353.8,Club El Bosque,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,100,2353.8,2583.8,PEDREROS,Obstaculo,Parque,0.0,False,Parque bajo línea
+L6434-6435,101,2583.8,2799.8,PEDREROS,Obstaculo,Parque,0.0,False,Parque bajo línea
+L6434-6435,102,2799.8,3015.8,PEDREROS,Obstaculo,Parque,0.0,False,Parque bajo línea
+L6434-6435,104,3250.8,3497.8,PEDREROS,Obstaculo,Parque,0.0,False,Parque bajo línea
+L6434-6435,106,3753.1000000000004,3955.1000000000004,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,107,3955.1000000000004,4167.1,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,108,4167.1,4374.1,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,109,4374.1,4537.200000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,110,4537.200000000001,4755.200000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,111,4755.200000000001,4973.200000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,112,4973.200000000001,5191.200000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,113,5191.200000000001,5389.200000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,114,5389.200000000001,5651.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,115,5651.200000000001,5881.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,116,5881.200000000001,6111.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,117,6111.200000000001,6341.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,118,6341.200000000001,6591.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,119,6591.200000000001,6911.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,120,6911.200000000001,7049.630000000001,CAMPOY,Obstaculo,Poblado,22.0,False,Poblado 22 m D.Horizontal
+L6434-6435,121A,7049.630000000001,7169.940000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,121B,7169.940000000001,7288.560000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,121C,7288.560000000001,7413.190000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,122A,7413.190000000001,7519.8200000000015,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,122B,7519.8200000000015,7585.120000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,122C,7585.120000000002,7687.100000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,123A,7687.100000000001,7757.430000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,123B,7757.430000000001,7815.230000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,123C,7815.230000000001,7942.530000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,123D,7942.530000000002,8079.500000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,124A,8079.500000000002,8254.450000000003,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,124B,8254.450000000003,8279.530000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,124C,8279.530000000002,8429.600000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,124D,8429.600000000002,8493.460000000003,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,125A,8493.460000000003,8593.810000000003,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,125B,8593.810000000003,8658.520000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,125C,8658.520000000002,8749.920000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,125D,8749.920000000002,8928.950000000003,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,125D,8749.920000000002,8928.950000000003,CAMPOY,Cruce,Otro,,True,Av. Malecón de la Amistad
+L6434-6435,126,8928.950000000003,9216.950000000003,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,127,9216.950000000003,9443.950000000003,CAMPOY,Obstaculo,Poblado,30.0,False,Poblado 30 m D.Horizontal
+L6434-6435,128,9443.950000000003,9678.950000000003,CAMPOY,Obstaculo,Poblado,29.0,False,Poblado 29 m D.Horizontal
+L6434-6435,129,9678.950000000003,9918.950000000003,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,130,9918.950000000003,10158.950000000003,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,131,10158.950000000003,10416.950000000003,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,132,10416.950000000003,10647.950000000003,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,133,10647.950000000003,10878.950000000003,VICENTELO BAJO ,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,134,10878.950000000003,11118.950000000003,VICENTELO BAJO ,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,134,10878.950000000003,11118.950000000003,VICENTELO BAJO ,Cruce,Parque,,True,Parque Huanca
+L6434-6435,135,11118.950000000003,11193.550000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,136,11193.550000000003,12083.550000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,138,12083.550000000003,12175.810000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,139,12175.810000000003,12360.810000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,140,12360.810000000003,12544.210000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,141,12544.210000000003,12710.210000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,142,12710.210000000003,12790.210000000003,STA. ROSA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,CABALLETE,12790.210000000003,12803.080000000004,STA. ROSA,Cruce,Otro,,True,Subestación Santa Rosa
+L6434-6435,90B,0.0,250.0,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,90B,0.0,250.0,HUACHIPA,Cruce,Otro,,True,Subestación Gloria
+L6434-6435,91,250.0,502.8,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,92,502.8,706.8,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,93A,706.8,752.8,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,93A,706.8,752.8,HUACHIPA,Cruce,Otro,,True,Subestación Huachipa
+L6434-6435,93,752.8,997.8,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,94,997.8,1247.8,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,95,1247.8,1497.8,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,96,1497.8,1706.8,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,97,1706.8,1914.8,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,98,1914.8,2123.3,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,99,2123.3,2353.8,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,100,2353.8,2583.8,PEDREROS,Obstaculo,Parque,0.0,False,Parque bajo línea
+L6434-6435,101,2583.8,2799.8,PEDREROS,Obstaculo,Parque,0.0,False,Parque bajo línea
+L6434-6435,102,2799.8,3015.8,PEDREROS,Obstaculo,Parque,0.0,False,Parque bajo línea
+L6434-6435,104,3250.8,3497.8,PEDREROS,Obstaculo,Parque,0.0,False,Parque bajo línea
+L6434-6435,106,3753.1000000000004,3955.1000000000004,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,107,3955.1000000000004,4167.1,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,108,4167.1,4374.1,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,109,4374.1,4537.200000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,110,4537.200000000001,4755.200000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,111,4755.200000000001,4973.200000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,112,4973.200000000001,5191.200000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,113,5191.200000000001,5389.200000000001,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,114,5389.200000000001,5651.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,115,5651.200000000001,5881.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,116,5881.200000000001,6111.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,117,6111.200000000001,6341.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,118,6341.200000000001,6591.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,119,6591.200000000001,6911.200000000001,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,120,6911.200000000001,7049.630000000001,CAMPOY,Obstaculo,Poblado,22.0,False,Poblado 22 m D.Horizontal
+L6434-6435,121A,7049.630000000001,7169.940000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,121B,7169.940000000001,7288.560000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,121C,7288.560000000001,7413.190000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,122A,7413.190000000001,7519.8200000000015,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,122B,7519.8200000000015,7585.120000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,122C,7585.120000000002,7687.100000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,123A,7687.100000000001,7757.430000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,123B,7757.430000000001,7815.230000000001,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,123C,7815.230000000001,7942.530000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,123D,7942.530000000002,8079.500000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,124A,8079.500000000002,8254.450000000003,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,124B,8254.450000000003,8279.530000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,124C,8279.530000000002,8429.600000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,124D,8429.600000000002,8493.460000000003,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,125A,8493.460000000003,8593.810000000003,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,125B,8593.810000000003,8658.520000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,125C,8658.520000000002,8749.920000000002,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,125D,8749.920000000002,8928.950000000003,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,125D,8749.920000000002,8928.950000000003,CAMPOY,Cruce,Otro,,True,Av. Malecón de la Amistad
+L6434-6435,126,8928.950000000003,9216.950000000003,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,127,9216.950000000003,9443.950000000003,CAMPOY,Obstaculo,Poblado,30.0,False,Poblado 30 m D.Horizontal
+L6434-6435,128,9443.950000000003,9678.950000000003,CAMPOY,Obstaculo,Poblado,29.0,False,Poblado 29 m D.Horizontal
+L6434-6435,129,9678.950000000003,9918.950000000003,CAMPOY,Obstaculo,Carretera,20.0,False,casas 20 m DH / Pista bajo línea
+L6434-6435,130,9918.950000000003,10158.950000000003,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,131,10158.950000000003,10416.950000000003,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,132,10416.950000000003,10647.950000000003,VICENTELO BAJO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,133,10647.950000000003,10878.950000000003,VICENTELO BAJO ,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,134,10878.950000000003,11118.950000000003,VICENTELO BAJO ,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,134,10878.950000000003,11118.950000000003,VICENTELO BAJO ,Cruce,Parque,,True,Parque Huanca
+L6434-6435,135,11118.950000000003,11193.550000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,136,11193.550000000003,12083.550000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,138,12083.550000000003,12175.810000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,139,12175.810000000003,12360.810000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,140,12360.810000000003,12544.210000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,141,12544.210000000003,12710.210000000003,MENACHO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,142,12710.210000000003,12790.210000000003,STA. ROSA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6434-6435,CABALLETE,12790.210000000003,12803.080000000004,STA. ROSA,Cruce,Otro,,True,Subestación Santa Rosa
+L2007,Port.Matucana,0.0,220.76,surco,Cruce,Carretera,,True,carretera afirmada para Antena Telec.
+L2007,1,220.76,338.89,Cerro Tomapongo,Cruce,Rio,,True,Teléfono carret. Central rio Rimac
+L2007,2,338.89,1892.9499999999998,Cerro Tomapongo,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,3,1892.9499999999998,2348.66,Cerro Taurimazanga,Obstaculo,Cultivo,0.0,False,Sembrió bajo línea
+L2007,4,2348.66,4127.34,Cerro Taurimazanga,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,4,2348.66,4127.34,Cerro Taurimazanga,Cruce,Rio,,True,Teléfono carret. Central rio Rimac Telégraf. Estado
+L2007,5,4127.34,4540.96,Cerro Huacre,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,6,4540.96,4889.96,Cerro Huacre,Obstaculo,Otro,0.0,False,árboles de palta bajo la línea
+L2007,7,4889.96,5686.23,Cerro Huacre,Cruce,Carretera,,True,carretera carrozable
+L2007,8,5686.23,7045.23,Cerro Huacre,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,8,5686.23,7045.23,Cerro Huacre,Cruce,Rio,,True,Carret. Central F.C central teléfono rio Rimac
+L2007,9,7045.23,7839.23,Cerro Chunga,Cruce,Carretera,,True,carretera afirmada a Huinco
+L2007,10,7839.23,9641.23,Cerro Chunga,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,10,7839.23,9641.23,Cerro Chunga,Cruce,Rio,,True,Carret. Central F.C central teléfono rio Rimac
+L2007,12,10724.43,12228.43,Cerro Marian,Cruce,Carretera,,True,carretera carrozable / Rio Cumbe
+L2007,18,19708.64,21292.739999999998,Cerro Mollepata,Cruce,Carretera,,True,carretera afirmada a Huinco
+L2007,19,21292.739999999998,21797.829999999998,Cerro Cayamaran,Cruce,Carretera,,True,carretera afirmada a Huinco
+L2007,20,21797.829999999998,22185.829999999998,Cerro Cayamaran,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,21,22185.829999999998,22475.829999999998,Cerro Cayamaran,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,Port.Matucana,0.0,220.76,surco,Cruce,Carretera,,True,carretera afirmada para Antena Telec.
+L2007,1,220.76,338.89,Cerro Tomapongo,Cruce,Rio,,True,Teléfono carret. Central rio Rimac
+L2007,2,338.89,1892.9499999999998,Cerro Tomapongo,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,3,1892.9499999999998,2348.66,Cerro Taurimazanga,Obstaculo,Cultivo,0.0,False,Sembrió bajo línea
+L2007,4,2348.66,4127.34,Cerro Taurimazanga,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,4,2348.66,4127.34,Cerro Taurimazanga,Cruce,Rio,,True,Teléfono carret. Central rio Rimac Telégraf. Estado
+L2007,5,4127.34,4540.96,Cerro Huacre,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,6,4540.96,4889.96,Cerro Huacre,Obstaculo,Otro,0.0,False,árboles de palta bajo la línea
+L2007,7,4889.96,5686.23,Cerro Huacre,Cruce,Carretera,,True,carretera carrozable
+L2007,8,5686.23,7045.23,Cerro Huacre,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,8,5686.23,7045.23,Cerro Huacre,Cruce,Rio,,True,Carret. Central F.C central teléfono rio Rimac
+L2007,9,7045.23,23415.050000000007,Cerro Chunga,Cruce,Carretera,,True,carretera afirmada a Huinco
+L2007A,1A,7924.23,9088.77,San Bartolome,Obstaculo,Cultivo,,True,sembrío de cactus
+L2007A,1A,7924.23,9088.77,San Bartolome,Cruce,Carretera,,True,carretera carrozable / vía del tren
+L2007A,2A,9088.77,10533.66,San Bartolome,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007A,7A,12295.59,13918.44,Lanca,Cruce,Carretera,,True,carretera carrozable / Rio Cumbe
+L2007A,8A,13918.44,14661.44,Lanca,Cruce,Carretera,,True,carretera carrozable / Rio Cumbe
+L2007A,9A,14661.44,15172.25,Lanca,Cruce,Carretera,,True,carretera carrozable / Rio Cumbe
+L2007A,10A,15172.25,15856.25,Lanca,Cruce,Carretera,,True,carretera carrozable / Rio Cumbe
+L2007,18,23415.050000000007,24999.150000000005,Cerro Mollepata,Cruce,Carretera,,True,carretera afirmada a Huinco
+L2007,19,24999.150000000005,25504.240000000005,Cerro Cayamaran,Cruce,Carretera,,True,carretera afirmada a Huinco
+L2007,20,25504.240000000005,25892.240000000005,Cerro Cayamaran,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2007,21,25892.240000000005,26182.240000000005,Cerro Cayamaran,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2716,T.2,215.37,525.37,Purunhuasi,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L2716,T.2,215.37,525.37,Purunhuasi,Cruce,Rio,,True,Canal de demasía; Torrecita 10 Kv; Rio STA. Eulalia
+L2716,T.3,525.37,579.77,Barbablanca,Obstaculo,Otro,,True,Subestación Callahuanca
+L6055-6060,1,43.9,125.12,MOYOPAMAPA,Obstaculo,Otro,,True,Subestación Moyopampa
+L6055-6060,1,43.9,125.12,MOYOPAMAPA,Cruce,Telecom,,True,Teléfono
+L6055-6060,8A,5163.01,5696.62,,Obstaculo,Poblado,116.0,False,Poblado 116 m D.Horizontal
+L6055-6060,14,9515.279999999997,10286.829999999996,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,15,10286.829999999996,11029.569999999996,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,16,11029.569999999996,11422.339999999997,CHACRASANA,Obstaculo,Poblado,25.0,False,Poblado 25 m D.Horizontal
+L6055-6060,18,11599.279999999997,12275.059999999998,CHACRASANA,Obstaculo,Otro,,True,Construcción de urbanización
+L6055-6060,23,14863.069999999998,15619.169999999998,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,23A,15619.169999999998,16113.369999999999,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,24,16113.369999999999,16501.42,LAS LOMAS DE VALELCITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,26,17065.51,18189.089999999997,ÑAÑA - URB LOS PORTALES,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,31,20088.709999999995,20789.029999999995,ÑAÑA - ASOC SAN FRANCISCO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,32,20789.029999999995,21607.029999999995,ÑAÑA - LA ERA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,35,22694.859999999997,23548.42,CARAPONGO - URB TERRAZAS DE CARAPONGUILLO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,37,23868.739999999998,24698.01,CARAPONGO - URB EL PORTILLO,Obstaculo,Poblado,,True,Poblado fuera de faja
+L6055-6060,38,24698.01,25422.579999999998,CARAPONGO - EL PORTILLO,Obstaculo,Otro,,True,Chancadora
+L6055-6060,41,26899.39,27482.89,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,42,27482.89,27640.89,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,42,27482.89,27640.89,CAJAMARQUILLA,Cruce,Otro,,True,Av Cajamarquilla
+L6055-6060,43,27640.89,27874.89,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,44,27874.89,28148.39,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,45,28148.39,28411.89,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,46,28411.89,28647.59,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,47,28647.59,29071.59,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,48,29071.59,29877.84,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,49,29877.84,30666.81,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,50,30666.81,31234.510000000002,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,51,31234.510000000002,31834.510000000002,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,52,31834.510000000002,32604.800000000003,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,53,32604.800000000003,33083.41,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,54,33083.41,33632.87,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,55,33632.87,34155.39,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,56,34155.39,34563.909999999996,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,56,34155.39,34563.909999999996,HUACHIPA,Cruce,Telecom,,True,Teléfono
+L6055-6060,57,34563.909999999996,34801.85999999999,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,58,34801.85999999999,35114.509999999995,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,59,35114.509999999995,35759.079999999994,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,60,35759.079999999994,36283.34999999999,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,61,36283.34999999999,36512.05999999999,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,62,36512.05999999999,37088.36999999999,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,63,37088.36999999999,37586.429999999986,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,64,37586.429999999986,38035.709999999985,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,65,38035.709999999985,38632.859999999986,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,66,38632.859999999986,38926.099999999984,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,67,38926.099999999984,39063.01999999998,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,67,38926.099999999984,39063.01999999998,CAMPOY,Cruce,Otro,,True,Línea 60Kv. 601/602 603/604
+L6055-6060,68,39063.01999999998,39402.78999999998,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,68,39063.01999999998,39402.78999999998,CAMPOY,Cruce,Rio,,True,Rio Rimac
+L6055-6060,69,39402.78999999998,39886.07999999998,STA. ROSA,Cruce,Carretera,,True,carretera Ramiro Priale
+L6055-6060,70,39886.07999999998,40216.21999999998,STA. ROSA,Obstaculo,Poblado,90.0,False,Poblado 90 m D.Horizontal
+L6055-6060,71,40216.21999999998,40686.21999999998,VICENTELO ALTO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,72,40686.21999999998,40787.489999999976,CERRO ATARJEA,Obstaculo,Poblado,90.0,False,Poblado 90 m D.Horizontal
+L6055-6060,72,40686.21999999998,40787.489999999976,CERRO ATARJEA,Cruce,Otro,,True,Línea 60Kv. 609/610
+L6055-6060,73,40787.489999999976,41190.979999999974,CERRO ATARJEA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,73,40787.489999999976,41190.979999999974,CERRO ATARJEA,Cruce,Carretera,,True,Línea 30 Kv Línea 2.3 Kv.   Teléfono F.C.C Ant. Camino vitarte
+L6055-6060,74,41190.979999999974,41380.979999999974,LA ATARJEA BRAVO CHICO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,75,41380.979999999974,41748.979999999974,NOCHETO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,76,41748.979999999974,42058.479999999974,CERRO EL AGUSTINO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,76,41748.979999999974,42058.479999999974,CERRO EL AGUSTINO,Cruce,Otro,,True,Línea 10 Kv
+L6055-6060,77A,42144.77999999998,42580.379999999976,CERRO EL AGUSTINO,Obstaculo,Poblado,54.0,False,Poblado 54 m D.Horizontal
+L6055-6060,78,42580.379999999976,42963.07999999997,CERRO EL AGUSTINO,Cruce,Otro,,True,Línea 2.3 Kv.
+L6055-6060,78A,42963.07999999997,43390.57999999997,VALDIVIESO,Obstaculo,Poblado,30.0,False,Poblado 30 m D.Horizontal
+L6055-6060,78A,42963.07999999997,43390.57999999997,VALDIVIESO,Cruce,Otro,,True,Crretera central Línea 2.3 Kv
+L6055-6060,79,43390.57999999997,43541.57999999997,PARQUE CAHUIDE,Obstaculo,Poblado,13.0,False,Poblado 13 m D.Horizontal
+L6055-6060,79A,43541.57999999997,44316.57999999997,PARQUE CAHUIDE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,80,44316.57999999997,44504.57999999997,AV. LAS TORRES,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,81,44504.57999999997,44754.57999999997,EL PINO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,82,44754.57999999997,45052.57999999997,EL PINO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,83,45052.57999999997,45347.57999999997,EL PINO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,84,45347.57999999997,45479.57999999997,URB. SALAMANCA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,85,45479.57999999997,45609.57999999997,URB. SALAMANCA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,85 bis,45609.57999999997,0.0,URB. SALAMANCA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,85 bis,45609.57999999997,0.0,URB. SALAMANCA,Cruce,Carretera,,True,Línea 10 Kv. Línea 2.3 Kv Carretera Pan. Sur Teléfono
+L6055,86-L6055,,,CAHUACHE,Obstaculo,Carretera,0.0,False,Pista bajo línea
+L6055,86-L6055,,,CAHUACHE,Cruce,Otro,,True,Av. Circunvalación
+L6055,87-L6055,,,CAHUACHE,Cruce,Otro,,True,vía auxiliar Av. Circunvalación
+L6055-6060,1,43.9,125.12,MOYOPAMAPA,Obstaculo,Otro,,True,Subestación Moyopampa
+L6055-6060,1,43.9,125.12,MOYOPAMAPA,Cruce,Telecom,,True,Teléfono
+L6055-6060,8A,5163.01,5696.62,,Obstaculo,Poblado,116.0,False,Poblado 116 m D.Horizontal
+L6055-6060,14,9515.279999999997,10286.829999999996,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,15,10286.829999999996,11029.569999999996,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,16,11029.569999999996,11422.339999999997,CHACRASANA,Obstaculo,Poblado,25.0,False,Poblado 25 m D.Horizontal
+L6055-6060,18,11599.279999999997,12275.059999999998,CHACRASANA,Obstaculo,Otro,,True,Construcción de urbanización
+L6055-6060,23,14863.069999999998,15619.169999999998,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,23A,15619.169999999998,16113.369999999999,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,24,16113.369999999999,16501.42,LAS LOMAS DE VALELCITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,26,17065.51,18189.089999999997,ÑAÑA - URB LOS PORTALES,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,31,20088.709999999995,20789.029999999995,ÑAÑA - ASOC SAN FRANCISCO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,32,20789.029999999995,21607.029999999995,ÑAÑA - LA ERA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,35,22694.859999999997,23548.42,CARAPONGO - URB TERRAZAS DE CARAPONGUILLO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,37,23868.739999999998,24698.01,CARAPONGO - URB EL PORTILLO,Obstaculo,Poblado,,True,Poblado fuera de faja
+L6055-6060,38,24698.01,25422.579999999998,CARAPONGO - EL PORTILLO,Obstaculo,Otro,,True,Chancadora
+L6055-6060,41,26899.39,27482.89,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,42,27482.89,27640.89,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,42,27482.89,27640.89,CAJAMARQUILLA,Cruce,Otro,,True,Av Cajamarquilla
+L6055-6060,43,27640.89,27874.89,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,44,27874.89,28148.39,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,45,28148.39,28411.89,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,46,28411.89,28647.59,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,47,28647.59,29071.59,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,48,29071.59,29877.84,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,49,29877.84,30666.81,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,50,30666.81,31234.510000000002,CAJAMARQUILLA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,51,31234.510000000002,31834.510000000002,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,52,31834.510000000002,32604.800000000003,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,53,32604.800000000003,33083.41,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,54,33083.41,33632.87,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,55,33632.87,34155.39,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,56,34155.39,34563.909999999996,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,56,34155.39,34563.909999999996,HUACHIPA,Cruce,Telecom,,True,Teléfono
+L6055-6060,57,34563.909999999996,34801.85999999999,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,58,34801.85999999999,35114.509999999995,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,59,35114.509999999995,35759.079999999994,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,60,35759.079999999994,36283.34999999999,PEDREROS,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,61,36283.34999999999,36512.05999999999,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,62,36512.05999999999,37088.36999999999,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,63,37088.36999999999,37586.429999999986,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,64,37586.429999999986,38035.709999999985,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,65,38035.709999999985,38632.859999999986,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,66,38632.859999999986,38926.099999999984,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,67,38926.099999999984,39063.01999999998,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,67,38926.099999999984,39063.01999999998,CAMPOY,Cruce,Otro,,True,Línea 60Kv. 601/602 603/604
+L6055-6060,68,39063.01999999998,39402.78999999998,CAMPOY,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,68,39063.01999999998,39402.78999999998,CAMPOY,Cruce,Rio,,True,Rio Rimac
+L6055-6060,69,39402.78999999998,39886.07999999998,STA. ROSA,Cruce,Carretera,,True,carretera Ramiro Priale
+L6055-6060,70,39886.07999999998,40216.21999999998,STA. ROSA,Obstaculo,Poblado,90.0,False,Poblado 90 m D.Horizontal
+L6055-6060,71,40216.21999999998,40686.21999999998,VICENTELO ALTO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,72,40686.21999999998,40787.489999999976,CERRO ATARJEA,Obstaculo,Poblado,90.0,False,Poblado 90 m D.Horizontal
+L6055-6060,72,40686.21999999998,40787.489999999976,CERRO ATARJEA,Cruce,Otro,,True,Línea 60Kv. 609/610
+L6055-6060,73,40787.489999999976,41190.979999999974,CERRO ATARJEA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,73,40787.489999999976,41190.979999999974,CERRO ATARJEA,Cruce,Carretera,,True,Línea 30 Kv Línea 2.3 Kv.   Teléfono F.C.C Ant. Camino vitarte
+L6055-6060,74,41190.979999999974,41380.979999999974,LA ATARJEA BRAVO CHICO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,75,41380.979999999974,41748.979999999974,NOCHETO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,76,41748.979999999974,42058.479999999974,CERRO EL AGUSTINO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,76,41748.979999999974,42058.479999999974,CERRO EL AGUSTINO,Cruce,Otro,,True,Línea 10 Kv
+L6055-6060,77A,42144.77999999998,42580.379999999976,CERRO EL AGUSTINO,Obstaculo,Poblado,54.0,False,Poblado 54 m D.Horizontal
+L6055-6060,78,42580.379999999976,42963.07999999997,CERRO EL AGUSTINO,Cruce,Otro,,True,Línea 2.3 Kv.
+L6055-6060,78A,42963.07999999997,43390.57999999997,VALDIVIESO,Obstaculo,Poblado,30.0,False,Poblado 30 m D.Horizontal
+L6055-6060,78A,42963.07999999997,43390.57999999997,VALDIVIESO,Cruce,Otro,,True,Crretera central Línea 2.3 Kv
+L6055-6060,79,43390.57999999997,43541.57999999997,PARQUE CAHUIDE,Obstaculo,Poblado,13.0,False,Poblado 13 m D.Horizontal
+L6055-6060,79A,43541.57999999997,44316.57999999997,PARQUE CAHUIDE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,80,44316.57999999997,44504.57999999997,AV. LAS TORRES,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,81,44504.57999999997,44754.57999999997,EL PINO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,82,44754.57999999997,45052.57999999997,EL PINO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,83,45052.57999999997,45347.57999999997,EL PINO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,84,45347.57999999997,45479.57999999997,URB. SALAMANCA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,85,45479.57999999997,45609.57999999997,URB. SALAMANCA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,85 bis,45609.57999999997,45737.57999999997,URB. SALAMANCA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6055-6060,85 bis,45609.57999999997,45737.57999999997,URB. SALAMANCA,Cruce,Carretera,,True,Línea 10 Kv. Línea 2.3 Kv Carretera Pan. Sur Teléfono
+L6055-6060,86,45737.57999999997,,CAHUACHE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,1,0.0,202.0,CAHUACHE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,2,202.0,202.0,CAHUACHE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,3,202.0,202.0,CAHUACHE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,87,202.0,404.0,CAHUACHE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,88,404.0,606.0,CAHUACHE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,89,606.0,808.0,CAHUACHE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,89 bis,808.0,808.0,FACULTAD VETER UNMSM,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,90,808.0,1010.0,MENDOZA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,91,1010.0,1290.1399999999999,MENDOZA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,91,1010.0,1290.1399999999999,MENDOZA,Cruce,Otro,,True,Av. Prolngación Javier Prado
+L6068,92,1290.1399999999999,1540.1399999999999,MENDOZA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,92 A,1540.1399999999999,1540.1399999999999,SAN BORJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,93,1540.1399999999999,1695.1399999999999,SAN BORJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,94,1695.1399999999999,1905.1399999999999,SAN BORJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,95,1905.1399999999999,2237.14,SAN BORJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,96,2237.14,2547.14,SAN BORJA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,97,2547.14,2754.14,VALVERDE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,98,2754.14,2970.14,VALVERDE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,99,2970.14,3295.14,VALVERDE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,100,3295.14,3622.14,VALVERDE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,101,3622.14,3947.14,VALVERDE,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,102,3947.14,4307.139999999999,CHACARILLA DEL ESTANQ.,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,103,4307.139999999999,4402.139999999999,CHACARILLA DEL ESTANQ.,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6068,103,4307.139999999999,4402.139999999999,CHACARILLA DEL ESTANQ.,Cruce,Otro,,True,Prolong. Av Primavera
+L6068,104,4402.139999999999,4428.639999999999,SET BALNEARIOS,Obstaculo,Otro,,True,Subestación Balnearios
+L6031-6040,Techo.Callahuanca,0.0,117.5,CALLAHUANCA ,Cruce,Rio,,True,RIO STA. EULALIA
+L6031-6040,1,117.5,361.95,BARBABLANCA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L6031-6040,2,361.95,575.21,BARBABLANCA,Cruce,Carretera,,True,carretera camino a Hinco
+L6031-6040,3,575.21,779.62,HUAYNANI,Cruce,Carretera,41.0,False,carretera carrozable 41 m D.Horizontal
+L6031-6040,4,779.62,914.62,HUAYNANI,Cruce,Carretera,33.0,False,carretera carrozable 33 m D.Horizontal
+L6031-6040,5,914.62,1052.84,HUAYNANI,Cruce,Carretera,33.0,False,carretera carrozable 33 m D.Horizontal
+L6031-6040,6,1052.84,1226.12,HUAYNANI,Cruce,Carretera,35.0,False,carretera carrozable 35 m D.Horizontal
+L6031-6040,7,1226.12,1493.9299999999998,HUAYNANI,Cruce,Carretera,22.0,False,carretera carrozable 22 m D.Horizontal
+L6031-6040,8,1493.9299999999998,1788.0299999999997,HUAYNANI,Obstaculo,Carretera,62.0,False,Pista 62 m D.Horizontal
+L6031-6040,9,1788.0299999999997,2097.75,LUCMASECA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,10,2097.75,2403.98,LUCMASECA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,11,2403.98,2982.24,LUCMASECA,Obstaculo,Poblado,81.0,False,Poblado 81 m D.Horizontal
+L6031-6040,12,2982.24,3532.29,LUCMASECA,Obstaculo,Otro,41.0,False,Casa a 41 m D.Horizontal
+L6031-6040,22,6533.04,6806.04,CUSBANCA,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal
+L6031-6040,23,6806.04,7010.16,CUSBANCA,Obstaculo,Poblado,37.0,False,Poblado 37 m D.Horizontal
+L6031-6040,24,7010.16,7271.16,CUSBANCA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L6031-6040,25,7271.16,7498.16,CUSBANCA,Obstaculo,Poblado,48.0,False,Poblado 48 m D.Horizontal
+L6031-6040,26,7498.16,7633.01,CUSBANCA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L6031-6040,27,7633.01,7992.77,CUSBANCA,Cruce,Carretera,,True,carretera carrozable
+L6031-6040,28,7992.77,8419.09,STA. EULALIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,29,8419.09,8555.09,STA. EULALIA,Cruce,Carretera,41.0,False,carretera carrozable 41 m D.Horizontal
+L6031-6040,30,8555.09,8853.83,STA. EULALIA,Obstaculo,Otro,0.0,False,Viviendas bajo línea
+L6031-6040,31,8853.83,9254.41,STA. EULALIA,Cruce,Carretera,,True,carretera carrozable
+L6031-6040,33,9443.35,10153.87,STA. EULALIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,33,9443.35,10153.87,STA. EULALIA,Cruce,Carretera,,True,CAMINO EE.EE.AA a VENTANA 5
+L6031-6040,36,10964.6,11756.550000000001,MOYOPAMPA,Cruce,Carretera,,True,carretera a taza Moyopampa
+L6031-6040,37,11756.550000000001,12486.550000000001,MOYOPAMPA,Cruce,Carretera,,True,carretera a taza Moyopampa
+L6031-6040,38,12486.550000000001,12714.800000000001,MOYOPAMPA,Cruce,Carretera,,True,carretera a taza Moyopampa
+L6031-6040,44,17581.54,18340.170000000002,,Obstaculo,Otro,55.0,False,Viviendas a 55 m DH
+L6031-6040,48A,19260.3,20552.239999999998,YANACOTO,Obstaculo,Otro,64.0,False,Viviendas a 64 m DH
+L6031-6040,51,22146.89,22845.8,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,52,22845.8,23425.12,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,53,23425.12,23768.12,CHACRASANA,Cruce,Carretera,,True,carretera carrozable
+L6031-6040,55,23973.12,24615.62,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,56,24615.62,25194.12,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,58,25364.12,26024.239999999998,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,59,26024.239999999998,26082.239999999998,HUAMPANI,Obstaculo,Otro,,True,Taza CH Huampaní
+L6031-6040,60,26082.239999999998,26132.239999999998,HUAMPANI,Obstaculo,Otro,,True,Taza CH Huampaní
+L6031-6040,60,26082.239999999998,26132.239999999998,HUAMPANI,Cruce,Otro,,True,LINEAS 601/602 (POR ENCIMA)
+L6031-6040,61,26132.239999999998,0.0,HUAMPANI,Obstaculo,Otro,,True,Taza CH Huampaní
+L6031-6040,61,26132.239999999998,0.0,HUAMPANI,Cruce,Telecom,,True,TUBERIA LINEA B.T.     F.C.C TELEFONO
+L6031,62,26300.239999999998,26312.89,CH HUAMPANI,Obstaculo,Otro,,True,CH Huampaní
+L6031,63 (L-6031),26312.89,26475.28,CH HUAMPANI,Obstaculo,Poblado,81.0,False,Poblado 81 m DH
+L6031,64,26475.28,26723.44,CH HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,67,27706.359999999997,28366.079999999998,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,68Bis,28366.079999999998,28867.839999999997,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,68,28867.839999999997,29272.609999999997,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,69,29272.609999999997,29887.69,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,70,29887.69,30654.199999999997,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,71,30654.199999999997,30985.699999999997,ÑAÑA,Obstaculo,Poblado,91.0,False,Poblado 91 m DH
+L6031,71,30654.199999999997,30985.699999999997,ÑAÑA,Cruce,Otro,,True,Transposición
+L6031,73,31113.699999999997,31749.199999999997,ÑAÑA,Obstaculo,Poblado,102.0,False,Poblado 102 m DH
+L6031,74,31749.199999999997,31970.049999999996,ÑAÑA,Obstaculo,Poblado,109.0,False,Poblado 109 m DH
+L6031,74A,31970.049999999996,32220.209999999995,ÑAÑA,Obstaculo,Poblado,38.0,False,Poblado 38 m DH
+L6031,74B,32220.209999999995,32373.059999999994,ÑAÑA,Obstaculo,Poblado,84.0,False,Poblado 84 m DH
+L6031,75,32373.059999999994,32797.23999999999,ÑAÑA,Obstaculo,Poblado,95.0,False,Poblado 95 m DH
+L6031,76,32797.23999999999,33101.23999999999,ÑAÑA,Obstaculo,Poblado,60.0,False,Poblado 60 m DH
+L6031,77,33101.23999999999,33774.99999999999,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,78,33774.99999999999,34463.159999999996,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,79,34463.159999999996,35108.6,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,81,35437.369999999995,36338.649999999994,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,83,36899.85999999999,37611.99999999999,CARA PONGUILLO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,83,36899.85999999999,37611.99999999999,CARA PONGUILLO,Cruce,Telecom,,True,Teléfono de larga distancia
+L6031,84,37611.99999999999,37914.189999999995,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,85,37914.189999999995,38661.24999999999,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,85,37914.189999999995,38661.24999999999,CARAPONGO,Cruce,Telecom,,True,Teléfono
+L6031,86,38661.24999999999,39325.219999999994,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,87,39325.219999999994,39949.09999999999,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,87,39325.219999999994,39949.09999999999,CARAPONGO,Cruce,Telecom,,True,Teléfono
+L6031,88,39949.09999999999,40647.23999999999,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,89,40647.23999999999,40948.19999999999,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,90,40948.19999999999,41258.69999999999,CARAPONGO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,91,41258.69999999999,41793.67999999999,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,92,41793.67999999999,42342.259999999995,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,93,42342.259999999995,42552.619999999995,NIEVERIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,94,42552.619999999995,42798.619999999995,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,95,42798.619999999995,43025.619999999995,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,96,43025.619999999995,43301.619999999995,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,97,43301.619999999995,43540.619999999995,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,98,43540.619999999995,43791.03999999999,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,99,43791.03999999999,43820.59,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,100,43820.59,43830.59,HUACHIPA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031,101,43830.59,,HUACHIPA,Obstaculo,Otro,,True,Subestación Huachipa
+L6031-6040,Techo.Callahuanca,0.0,117.5,CALLAHUANCA ,Cruce,Rio,,True,RIO STA. EULALIA
+L6031-6040,1,117.5,361.95,BARBABLANCA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L6031-6040,2,361.95,575.21,BARBABLANCA,Cruce,Carretera,,True,carretera camino a Hinco
+L6031-6040,3,575.21,779.62,HUAYNANI,Cruce,Carretera,41.0,False,carretera carrozable 41 m D.Horizontal
+L6031-6040,4,779.62,914.62,HUAYNANI,Cruce,Carretera,33.0,False,carretera carrozable 33 m D.Horizontal
+L6031-6040,5,914.62,1052.84,HUAYNANI,Cruce,Carretera,33.0,False,carretera carrozable 33 m D.Horizontal
+L6031-6040,6,1052.84,1226.12,HUAYNANI,Cruce,Carretera,35.0,False,carretera carrozable 35 m D.Horizontal
+L6031-6040,7,1226.12,1493.9299999999998,HUAYNANI,Cruce,Carretera,22.0,False,carretera carrozable 22 m D.Horizontal
+L6031-6040,8,1493.9299999999998,1788.0299999999997,HUAYNANI,Obstaculo,Carretera,62.0,False,Pista 62 m D.Horizontal
+L6031-6040,9,1788.0299999999997,2097.75,LUCMASECA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,10,2097.75,2403.98,LUCMASECA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,11,2403.98,2982.24,LUCMASECA,Obstaculo,Poblado,81.0,False,Poblado 81 m D.Horizontal
+L6031-6040,12,2982.24,3532.29,LUCMASECA,Obstaculo,Otro,41.0,False,Casa a 41 m D.Horizontal
+L6031-6040,22,6533.04,6806.04,CUSBANCA,Obstaculo,Poblado,70.0,False,Poblado 70 m D.Horizontal
+L6031-6040,23,6806.04,7010.16,CUSBANCA,Obstaculo,Poblado,37.0,False,Poblado 37 m D.Horizontal
+L6031-6040,24,7010.16,7271.16,CUSBANCA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L6031-6040,25,7271.16,7498.16,CUSBANCA,Obstaculo,Poblado,48.0,False,Poblado 48 m D.Horizontal
+L6031-6040,26,7498.16,7633.01,CUSBANCA,Obstaculo,Poblado,50.0,False,Poblado 50 m D.Horizontal
+L6031-6040,27,7633.01,7992.77,CUSBANCA,Cruce,Carretera,,True,carretera carrozable
+L6031-6040,28,7992.77,8419.09,STA. EULALIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,29,8419.09,8555.09,STA. EULALIA,Cruce,Carretera,41.0,False,carretera carrozable 41 m D.Horizontal
+L6031-6040,30,8555.09,8853.83,STA. EULALIA,Obstaculo,Otro,0.0,False,Viviendas bajo línea
+L6031-6040,31,8853.83,9254.41,STA. EULALIA,Cruce,Carretera,,True,carretera carrozable
+L6031-6040,33,9443.35,10153.87,STA. EULALIA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,33,9443.35,10153.87,STA. EULALIA,Cruce,Carretera,,True,CAMINO EE.EE.AA a VENTANA 5
+L6031-6040,36,10964.6,11756.550000000001,MOYOPAMPA,Cruce,Carretera,,True,carretera a taza Moyopampa
+L6031-6040,37,11756.550000000001,12486.550000000001,MOYOPAMPA,Cruce,Carretera,,True,carretera a taza Moyopampa
+L6031-6040,38,12486.550000000001,12714.800000000001,MOYOPAMPA,Cruce,Carretera,,True,carretera a taza Moyopampa
+L6031-6040,44,17581.54,18340.170000000002,,Obstaculo,Otro,55.0,False,Viviendas a 55 m DH
+L6031-6040,48A,19260.3,20552.239999999998,YANACOTO,Obstaculo,Otro,64.0,False,Viviendas a 64 m DH
+L6031-6040,51,22146.89,22845.8,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,52,22845.8,23425.12,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,53,23425.12,23768.12,CHACRASANA,Cruce,Carretera,,True,carretera carrozable
+L6031-6040,55,23973.12,24615.62,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,56,24615.62,25194.12,CHACRASANA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,58,25364.12,26024.239999999998,HUAMPANI,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6031-6040,59,26024.239999999998,26082.239999999998,HUAMPANI,Obstaculo,Otro,,True,Taza CH Huampaní
+L6031-6040,60,26082.239999999998,26132.239999999998,HUAMPANI,Obstaculo,Otro,,True,Taza CH Huampaní
+L6031-6040,60,26082.239999999998,26132.239999999998,HUAMPANI,Cruce,Otro,,True,LINEAS 601/602 (POR ENCIMA)
+L6031-6040,61,26132.239999999998,,HUAMPANI,Obstaculo,Otro,,True,Taza CH Huampaní
+L6031-6040,61,26132.239999999998,,HUAMPANI,Cruce,Telecom,,True,TUBERIA LINEA B.T.     F.C.C TELEFONO
+L6040,62,26300.239999999998,26500.239999999998,HUAMPANI,Cruce,Otro,,True,CERCO CANAL
+L6040,63,26500.239999999998,26540.239999999998,HUAMPANI,Obstaculo,Otro,,True,CH Huampaní
+L6544,Techo.Huampani,0.0,35.0,CH HUAMPANI,Obstaculo,Otro,,True,CH Huampani
+L6544,1,35.0,51.0,CH HUAMPANI,Cruce,Otro,,True,CH Huampani
+L6544,5,426.0,677.0,HUAMPANI,Obstaculo,Otro,0.0,False,casa bajo la línea
+L6544,8,1633.0,2292.7200000000003,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6544,8Bis,2292.7200000000003,2794.4800000000005,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6544,9,2794.4800000000005,3202.4800000000005,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6544,10,3202.4800000000005,3819.4800000000005,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6544,11,3819.4800000000005,4595.4800000000005,VALLECITO,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6544,12,4595.4800000000005,4943.4800000000005,ÑAÑA,Obstaculo,Poblado,300.0,False,Poblado 300 m DH
+L6544,12,4595.4800000000005,4943.4800000000005,ÑAÑA,Cruce,Otro,,True,Transposición
+L6544,13,4943.4800000000005,5063.4800000000005,ÑAÑA,Obstaculo,Poblado,200.0,False,Poblado 200 m DH
+L6544,14,5063.4800000000005,5684.4800000000005,ÑAÑA,Obstaculo,Poblado,120.0,False,Poblado 120 m DH
+L6544,15,5684.4800000000005,5905.330000000001,ÑAÑA,Obstaculo,Otro,110.0,False,Cementerio 110m DH
+L6544,15A,5905.330000000001,6155.490000000001,ÑAÑA,Obstaculo,Poblado,150.0,False,Poblado 150 m DH
+L6544,15B,6155.490000000001,6308.340000000001,ÑAÑA,Obstaculo,Poblado,150.0,False,Poblado 150 m DH
+L6544,18,6354.340000000001,6670.340000000001,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6544,19,6670.340000000001,6754.340000000001,ÑAÑA,Obstaculo,Poblado,10.0,False,Poblado 10 m DH
+L6544,20,6754.340000000001,6784.340000000001,ÑAÑA,Obstaculo,Poblado,10.0,False,Poblado 10 m DH
+L6544,21,6784.340000000001,6938.340000000001,ÑAÑA,Obstaculo,Poblado,10.0,False,Poblado 10 m DH
+L6544,22,6938.340000000001,7092.340000000001,ÑAÑA,Obstaculo,Poblado,10.0,False,Poblado 10 m DH
+L6544,23,7092.340000000001,7117.340000000001,ÑAÑA,Obstaculo,Poblado,10.0,False,Poblado 10 m DH
+L6544,24,7117.340000000001,7254.340000000001,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6544,25,7254.340000000001,7372.340000000001,ÑAÑA,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6544,25A,7372.340000000001,7562.340000000001,ÑAÑA,Obstaculo,Otro,,True,Papelera Atlas
+L6544,26,7562.340000000001,7838.340000000001,ÑAÑA,Obstaculo,Otro,,True,Papelera Atlas
+L6544,27,7838.340000000001,7961.340000000001,ÑAÑA,Obstaculo,Otro,,True,Papelera Atlas
+L6544,28,7961.340000000001,8026.840000000001,Ñaña,Obstaculo,Otro,,True,Papelera Atlas
+L6544,28A,8026.840000000001,8056.840000000001,,Obstaculo,Otro,,True,Papelera Atlas
+L6111,Techo.Callahuanca,0.0,104.0,,Obstaculo,Otro,,True,CH Callahuanca
+L6111,Techo.Callahuanca,0.0,104.0,,Cruce,Rio,,True,Rio Sta. Eulalia
+L6111,1,104.0,350.0,,Cruce,Carretera,,True,carretera
+L6111,2,350.0,522.1,,Cruce,Carretera,,True,carretera camino a Hinco
+L6111,3,522.1,751.7,,Cruce,Carretera,,True,carretera camino a Hinco
+L6111,4,751.7,989.4000000000001,,Cruce,Carretera,10.0,False,carretera carrozable 10 m D.Horizontal
+L6111,5,989.4000000000001,1192.8000000000002,,Cruce,Carretera,10.0,False,carretera carrozable 10 m D.Horizontal
+L6111,6,1192.8000000000002,1456.0000000000002,,Cruce,Carretera,10.0,False,carretera carrozable 10 m D.Horizontal
+L6111,7,1456.0000000000002,1788.0000000000002,,Obstaculo,Carretera,6.0,False,Pista 6 m DH
+L6111,8,1788.0000000000002,1997.7500000000002,,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6111,9,1997.7500000000002,2163.75,,Obstaculo,Poblado,35.0,False,Poblado 35 m DH
+L6111,14,2994.75,3224.15,,Obstaculo,Otro,18.0,False,Vivienda a 18 m DH
+L6111,15,3224.15,3549.55,,Obstaculo,Poblado,87.0,False,Poblado 87 m DH
+L6111,21,4644.6,4913.6,,Obstaculo,Otro,0.0,False,Vivienda bajo línea
+L6111,22,4913.6,5238.6,,Obstaculo,Poblado,117.0,False,Poblado 117 m DH
+L6111,23,5238.6,5357.1,,Obstaculo,Poblado,79.0,False,Poblado 79 m DH
+L6111,24,5357.1,5697.900000000001,,Obstaculo,Poblado,50.0,False,Poblado 50 m DH
+L6111,28,6517.400000000001,6713.1,,Obstaculo,Poblado,53.0,False,Poblado 53 m DH
+L6111,29,6713.1,7052.5,,Obstaculo,Poblado,16.0,False,Poblado 16 m DH
+L6111,30,7052.5,7319.0,,Obstaculo,Poblado,18.0,False,Poblado 18 m DH
+L6111,31,7319.0,7530.0,,Obstaculo,Poblado,13.0,False,Poblado 13 m DH
+L6111,31,7319.0,7530.0,,Cruce,Carretera,,True,Camino
+L6111,32,7530.0,7695.3,,Obstaculo,Poblado,22.0,False,Poblado 22 m DH
+L6111,33,7695.3,7956.8,,Cruce,Carretera,,True,carretera carrozable
+L6111,34,7956.8,8053.2,,Obstaculo,Poblado,34.0,False,Poblado 34 m DH
+L6111,35,8053.2,8294.2,,Obstaculo,Carretera,0.0,False,Pista y viviendas bajo línea
+L6111,35,8053.2,8294.2,,Cruce,Carretera,,True,Camino
+L6111,36,8294.2,8469.2,,Obstaculo,Carretera,0.0,False,Pista y viviendas bajo línea
+L6111,36,8294.2,8469.2,,Cruce,Carretera,,True,Camino
+L6111,38,8613.7,8862.1,,Obstaculo,Otro,0.0,False,Vivienda bajo línea
+L6111,39,8862.1,9094.1,,Cruce,Carretera,,True,carretera carrozable
+L6111,40,9094.1,9279.800000000001,,Cruce,Carretera,,True,carretera carrozable
+L6111,41,9279.800000000001,9472.6,,Obstaculo,Poblado,25.0,False,Poblado 25 m DH
+L6111,42,9472.6,9785.1,,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6111,42,9472.6,9785.1,,Cruce,Carretera,,True,Camino
+L6111,43,9785.1,10065.1,,Obstaculo,Poblado,0.0,False,Poblado bajo línea
+L6111,46,10270.5,10563.73,,Obstaculo,Otro,0.0,False,Vivienda bajo línea
+L6111,47A,10563.73,10969.67,,Obstaculo,Poblado,31.0,False,Poblado 31 m DH
+L6111,51A,12105.67,12487.82,,Obstaculo,Poblado,44.0,False,Poblado 44 m DH
+L6111,52B,12575.26,12745.25,,Obstaculo,Poblado,49.0,False,Poblado 49 m DH
+L6111,53,12745.25,12862.74,,Obstaculo,Otro,,True,Tubería de fuerza.
+L6111,58,12862.74,12896.24,,Obstaculo,Otro,,True,CH Moyopampa
+L6111,59,12896.24,12932.24,,Obstaculo,Otro,,True,CH Moyopampa
+L6731,Techo.Moyopampa,0.0,52.0,MOYOPAMPA,Obstaculo,Otro,,True,CH Moyopampa
+L6731,1,52.0,85.0,MOYOPAMPA,Obstaculo,Otro,,True,CH Moyopampa
+L6731,2,85.0,205.9,MOYOPAMPA,Obstaculo,Otro,,True,CH Moyopampa
+L6731,4,238.8,496.8,MOYOPAMPA,Obstaculo,Otro,,True,Almacen Moyopampa
+L6731,5,496.8,573.3,MOYOPAMPA,Obstaculo,Otro,10.0,False,Casa 10m DH
+L2260,1,36.93,338.23,,Cruce,Otro,,True,* Cruce de línea de 220Kv. a 11 m. por encima del conductor.
+L2260,2,338.23,589.2,,Cruce,Carretera,,True,"* A 130 m de T02 VANO ADELANTE SE EVIDENCIÓ CASA DE CALAMINA DENTRO DE FAJA DE SERVIDUMBRE (MATERIAL DE CALAMINA). A 6m. De fase S.
+* A medio vano adelante cruce carretera.
+* A ¼ de vano Cruce de línea de 220kv."
+L2260,4,901.8600000000001,1526.69,,Cruce,Carretera,,True,"* VANO ADELANTE SE ENCONTRO CASA DE LADRILLO DENTRO DE LA FAJA DE SERVIDUMBRE
+* Cruce de rio seco
+* Cruce de carretera"
+L2260,5,1526.69,2065.12,,Cruce,Otro,,True,* VANO ADELANTE SE EVIDENCIO CORRALON DE LADRILLO DENTRO DE FAJA DE SERVIDUMBRE a 6.0 m de conductor.
+L2260,7,2544.41,2975.33,,Cruce,Carretera,,True,"* Cerco de ladrillo del botadero a medio vano a 5.36 mts del conductor.
+* Cruce de carretera"
+L2260,8,2975.33,3368.55,,Cruce,Carretera,,True,* Cruce de carretera a 11.078
+L2260,9,3368.55,3738.8100000000004,,Cruce,Carretera,,True,* Cruce de carretera a 13.773 del conductor
+L2260,21,8122.08,8538.63,,Cruce,Otro,,True,A  ¼ de vano cerco perimétrico de alambre de púa
+L2260,22,8538.63,8956.289999999999,,Cruce,Otro,,True,Cerco perimétrico a ¾ de vano alambre de púa
+L2260,23,8956.289999999999,9345.73,,Cruce,Otro,,True,Cerco perimétrico de alambre de púas.
+L2260,25,9708.91,10097.1,,Cruce,Otro,,True,Cerco perimétrico alambre de púas.
+L2260,26,10097.1,10493.75,,Cruce,Otro,,True,Cerco perimétrico alambre de púas.
+L2260,29,11306.49,11677.89,,Cruce,Otro,,True,Cerco perimétrico alambre de púas.
+L2260,64,24517.300000000003,24947.910000000003,,Cruce,Otro,,True,-       Cruce de Cerco perimétrico de alambre de púas a ¾ de vano.
+L2260,68,26090.010000000006,26405.610000000004,,Cruce,Otro,,True,* Cruce de línea de MT por debajo de nuestra línea a 10 mt de separación.
+L2260,110,40626.60399999998,41001.67399999998,,Cruce,Otro,,True,a 1/2 vano se observa un cerco perimetrico de material noble (ladrillo) DV.11.60m
+L2260,118,43757.98399999998,44115.52399999998,,Cruce,Otro,,True,* Cruce de línea de MT y BT cerca de T119
+L2260,182,66032.754,66398.644,,Cruce,Otro,,True,Dentro de Fundo de uva
+L2260,183,66398.644,66668.884,,Cruce,Otro,,True,* Huarangos a  medio vano
+L2260,184,66668.884,66949.444,,Cruce,Otro,,True,* Huarangos a  medio vano
+L2260,185,66949.444,67462.04400000001,,Cruce,Otro,,True,* Huarangos a  medio vano
+L2260,210,76349.01400000004,76855.88400000003,,Cruce,Otro,,True,* Huarangos a  medio vano.
+L2260,211,76855.88400000003,77115.29400000004,,Cruce,Cultivo,,True,"* Terreno de cultivo (pan llevar - maiz) temporal. Octubre a Mayo. 
+* Cultivo de uva tecnificado a medio vano con cerco vivos de frutales.
+* Cruce de trocha"
+L2260,212,77115.29400000004,77400.81400000004,,Cruce,Cultivo,,True,"* Terreno de cultivo (pan llevar - maiz) temporal. Octubre a Mayo. 
+* Cultivo de uva tecnificado a medio vano con cerco vivos de frutales.
+* Cruce de trocha"
+L2260,216,78472.70400000004,78970.24400000004,,Cruce,Otro,,True,"* Torre  Libre
+* Vegetacion a medio vano."
+L2260,217,78970.24400000004,79404.67400000003,,Cruce,Cultivo,,True,"* Torre  en terreno de cultivo.
+* Cultivo pan llevar a medio vano."
+L2260,218,79404.67400000003,79787.81400000003,,Cruce,Otro,,True,* Corral Criadero de cuyes  en la F.S y Baño
+L2260,221,80431.50400000003,80736.67400000003,,Cruce,Otro,0.0,False,"* CRUCE DE LINEA PRIMARIA(3 conductores mas cable guarda), ALTURA DE CONDUCTOR=20.707m, ALTURA DE LA LP=4.481m, DV=16.226m, DT=150m.
+* UN SS.HH. BAJO LA LINEA 
+* CRUCE DE RED, ALTURA DE RED DOMICILIARIA=1.884m, ALTURA DEL CONDUCTOR=9.888m, DV=8.004m"
+L2260,224,81735.97400000003,81967.63400000003,,Cruce,Cultivo,,True,* SEMBRIO DE MAÍZ EN LAS PATAS DE LAS TORRES
+L2260,237,87437.95400000003,87879.72400000003,,Cruce,Otro,,True,"* Torre  Libre
+* Vegetacion a medio vano."
+L2260,240,88516.15400000002,88918.39400000003,,Cruce,Otro,,True,"SS.HH., ALTURA DEL CONDUCTOR=24.519m, ALTURA DE SS.HH.=1.846m, DV=22.673m"
+L2260,241,88918.39400000003,89561.04400000002,,Cruce,Otro,,True,"*CRUCE DE RED DOMICILIARIA, ALTURA DEL CONDUCTOR=22.652m, ALTURA DE RED DOMICILIARIA=12.573m, DV=9.912m
+* CRUCE DE RED DOMICILIARIA, ALTURA DE CONDUCTOR=26.052m, ALTURA DE RED DOMICILIARIA=6.307m, DV=19.745"
+L2260,247,91721.65400000002,92209.76400000002,,Cruce,Otro,,True,"* CRUCE DE RED DOMICILIARIA, ALTURA DEL CONDUCTOR=31.279m, ALTURA DE RED DOMICILIARIA=8.36m, DV=22.919m.
+* CRUCE DE BT-10KV, ALTURA DEL CONDUCTOR=31.279m, ALTURA DE BT=10.888m, DV=20.391m"
+L2260,273,102639.50400000006,102845.62400000005,,Cruce,Otro,,True,viviendas
+L2260,288,109888.39400000004,110109.04400000004,,Cruce,Carretera,,True,* CRUCE DE CARRETERA HACIA LA COSTA
+L2260,293,111769.42400000003,112165.75400000003,,Cruce,Carretera,,True,* CRUCE DE CARRETERA
+L2260,294,112165.75400000003,112762.67400000003,,Cruce,Carretera,,True,* CRUCE DE CARRETERA
+L2260,300,114799.73400000001,115642.854,,Cruce,Cultivo,,True,* Terreno de cultivo de  pan llevar
+L2260,307,118664.29400000002,118843.98400000003,,Cruce,Otro,,True,CRUCE DE RED DE BAJA TENSION DV=4.98
+L2260,308,118843.98400000003,119397.51400000002,,Cruce,Carretera,,True,CRUCE DE CARRETERA
+L2260,310,119583.42400000003,120347.09400000003,,Cruce,Otro,,True,SE CPNSTATO CRUCE DE BT CON DV DV: 8.42
+L2260,317,123817.34400000003,124016.20400000003,,Cruce,Otro,,True,Cruce con Red de bata tensión  Altura red=6.025 m. altura conductor  31.32 m.  DV= 25.29 m.
+L2260,320,125070.39400000003,125352.17400000003,,Cruce,Otro,,True,CRUCE DE RED DE BAJA TENSION. SE constato cruce de liniea de 10KV en la quebrada.
+L2260,322,125397.41400000003,125794.30400000003,,Cruce,Otro,,True,UNA LINIEA DE RED DOMICILIARIA Altura conductor =16.48 m - Altura de cable de red 4.21m = 12.189 m
+L2260,323,125794.30400000003,126125.42400000003,,Cruce,Otro,,True,SE CONSTATO CRUCE DE RED DOMILICIARIA 32.37 - 7.04=  CON D.V 25.327.
+L2260,325,126753.54400000002,127278.49400000002,,Cruce,Otro,,True,UNA LINIA DE RED DOMIDILIARIA CON DV 17.974 m.  Altura red domiciliaria con 5.039 m.  Altura cond=23.013 m. Viviendas
+L2260,328,128659.63400000002,128936.85400000002,,Cruce,Otro,,True,SE CONSTATO UN CRUCE DE LINIEA DE RED DOMICIARIA. Altura de liniea de red domiciaria 5.39
+L2260,338,132580.43400000004,132978.84400000004,,Cruce,Otro,,True,CRUCE DE B.T DV=13.986
+L2260,339,132978.84400000004,133154.92400000003,,Cruce,Otro,,True,El propietario no permite el ingreso de vehicular.
+L2260,340,133154.92400000003,133372.26400000002,,Cruce,Otro,,True,"CRUCE DE MT, SUELO AL CABLE DE MT=5.59m, SUELO AL CONDUCTOR=14.62m, DV=9.14m."
+L2260,341,133372.26400000002,133846.65400000004,,Cruce,Otro,,True,"CRUCE DE BT, SUELO AL CONDUCTOR=16.12m, SUELO Al CABLE DE BT=5.31m, DV=10.81m 
+CRUCE DE BT, SUELO AL CONDUCTOR=16.12m, SUELO AL CABLE DE BT=4.87m, DV=11.25m"
+L2260,342,133846.65400000004,134229.12400000004,,Cruce,Otro,,True,"CRUCE DE MT, SUELO AL CONDUCTOR=8.7m, SUELO AL CABLE DE MT=19.09m, DV=10.39m."
+L2260,344,134558.20400000003,134912.62400000004,,Cruce,Otro,,True,CRUCE DE B.T CON DV=4.823. Viviendas
+L2260,345,134912.62400000004,135403.48400000003,,Cruce,Otro,,True,"CRUCE RED B.T,   BOMBEO DE AGUA, COSTRUCCION BAJO FS. viviendas"
+L2260,346,135403.48400000003,135630.60400000002,,Cruce,Carretera,,True,"CRUCE DE CARRETERA, CRUCE DE FIBRA OPTICA,"
+L2260,348,135933.80400000003,136275.40400000004,,Cruce,Telecom,,True,CRUCE DE FIBRA OPTICA CON DV 13.973
+L1040,SE Callalli,0.0,27.4,,Obstaculo,Otro,,True,SE REP
+L1040,1,27.4,96.50999999999999,,Obstaculo,Otro,,True,SE REP
+L1040,2,96.50999999999999,171.18,,Obstaculo,Otro,,True,SE REP
+L1040,2,96.50999999999999,171.18,,Cruce,Carretera,,True,Cruce carretera Arequipa - Cailloma
+L1040,3,171.18,671.1800000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,3,171.18,671.1800000000001,,Cruce,Otro,,True,Cruce de linea M.T. a 70 m. adelante y d.c. 8 m. cruce de linea de FO a 160m adelante y DC 8m.
+L1040,4,671.1800000000001,995.95,,Obstaculo,Poblado,110.0,False,Poblado 110 m. D. Horizontal (Der)
+L1040,4,671.1800000000001,995.95,,Cruce,Otro,,True,Cruce de linea de AT a 150 m. adelante y d.c. 8 m.
+L1040,5,995.95,1454.97,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,6,1454.97,1641.67,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,7,1641.67,2072.87,,Obstaculo,Otro,180.0,False,Planta agregados 180 m. D. Horizontal (Der)
+L1040,8,2072.87,2461.92,,Obstaculo,Otro,,True,Estancia a 180 m. D. Hor (Izq)
+L1040,9,2461.92,2680.59,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,10,2680.59,2865.19,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,11,2865.19,3277.98,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,12,3277.98,3769.99,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,13,3769.99,4223.82,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,14,4223.82,4630.179999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,15,4630.179999999999,4876.5599999999995,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,16,4876.5599999999995,5753.369999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,17,5753.369999999999,6293.0999999999985,,Obstaculo,Otro,180.0,False,Vivienda 180 m. D. Horizontal (der)
+L1040,17,5753.369999999999,6293.0999999999985,,Cruce,Carretera,,True,Cruce camino carrozable
+L1040,18,6293.0999999999985,6697.289999999998,,Obstaculo,Otro,135.0,False,"Corral bajo conductores, Vivienda 135 m. D. Horizontal (der)"
+L1040,19,6697.289999999998,6903.4299999999985,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,20,6903.4299999999985,7106.519999999999,,Obstaculo,Otro,190.0,False,Vivienda 190 m. D. Horizontal (izq)
+L1040,21,7106.519999999999,7815.689999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,22,7815.689999999999,8010.439999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,23,8010.439999999999,8234.999999999998,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,24,8234.999999999998,9133.999999999998,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,24,8234.999999999998,9133.999999999998,,Cruce,Rio,,True,Cruce de rio
+L1040,25,9133.999999999998,9560.649999999998,,Obstaculo,Poblado,250.0,False,Poblado 250 m. D. Horizontal (Der)
+L1040,26,9560.649999999998,9816.449999999997,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,27,9816.449999999997,10030.829999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,28,10030.829999999996,10591.859999999997,,Obstaculo,Poblado,140.0,False,"Poblado 140 m. D. Horizontal (Der), Vivienda bajo conductores."
+L1040,29,10591.859999999997,10874.729999999998,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,30,10874.729999999998,11075.339999999998,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,31,11075.339999999998,11651.029999999999,,Obstaculo,Otro,35.0,False,Vivienda 35 m. D. Horizontal (Izq)
+L1040,32,11651.029999999999,11983.14,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,33,11983.14,12183.73,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,34,12183.73,12907.25,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,35,12907.25,13241.69,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,36,13241.69,13943.29,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,37,13943.29,14179.990000000002,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,38,14179.990000000002,14576.390000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,39,14576.390000000001,14905.79,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,40,14905.79,15280.890000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,41,15280.890000000001,15625.69,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,42,15625.69,15871.27,,Obstaculo,Cultivo,,True,Cultivos andinos
+L1040,43,15871.27,16122.630000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,44,16122.630000000001,16512.65,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,45,16512.65,16922.190000000002,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,45,16512.65,16922.190000000002,,Cruce,Carretera,,True,Cruce camino carrozable
+L1040,46,16922.190000000002,17202.190000000002,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,47,17202.190000000002,17514.120000000003,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,48,17514.120000000003,17722.260000000002,,Obstaculo,Otro,,True,Vivienda - pastoreo D. horizontal 75 m. (der)
+L1040,49,17722.260000000002,18200.36,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,50,18200.36,18679.06,,Obstaculo,Otro,,True,Vivienda - pastoreo D. horizontal 200 m. (der)
+L1040,51,18679.06,18881.370000000003,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,52,18881.370000000003,19085.190000000002,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,53,19085.190000000002,19374.410000000003,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,54,19374.410000000003,19725.210000000003,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,55,19725.210000000003,19961.910000000003,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,56,19961.910000000003,20245.200000000004,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,57,20245.200000000004,20740.180000000004,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,57,20245.200000000004,20740.180000000004,,Cruce,Carretera,,True,Cruce camino carrozable
+L1040,58,20740.180000000004,21005.210000000003,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,59,21005.210000000003,21437.210000000003,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,60,21437.210000000003,21793.210000000003,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,61,21793.210000000003,22182.260000000002,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,62,22182.260000000002,22641.43,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,63,22641.43,22971.85,,Obstaculo,Otro,160.0,False,Vivienda 160 m. D. Horizontal (Izq)
+L1040,64,22971.85,23271.14,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,65,23271.14,23742.28,,Obstaculo,Otro,380.0,False,Vivienda 380 m. D. Horizontal (Der)
+L1040,66,23742.28,24248.75,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,67,24248.75,24542.42,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,68,24542.42,24743.62,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,69,24743.62,24962.3,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,70,24962.3,25167.27,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,71,25167.27,25549.3,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,72,25549.3,26340.329999999998,,Obstaculo,Otro,230.0,False,Vivienda 230 m. D. Horizontal (Izq)
+L1040,73,26340.329999999998,26502.969999999998,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,74,26502.969999999998,26783.469999999998,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,75,26783.469999999998,27512.909999999996,,Obstaculo,Poblado,220.0,False,Poblado 220 m. D. Horizontal (Der)
+L1040,76,27512.909999999996,27860.289999999997,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,77,27860.289999999997,28240.209999999995,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,78,28240.209999999995,28419.979999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,79,28419.979999999996,28710.109999999997,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,80,28710.109999999997,28931.589999999997,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,81,28931.589999999997,29236.019999999997,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,82,29236.019999999997,29815.909999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,83,29815.909999999996,30096.069999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,84,30096.069999999996,30596.119999999995,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,85,30596.119999999995,30840.319999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,86,30840.319999999996,31020.219999999998,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,86,30840.319999999996,31020.219999999998,,Cruce,Otro,,True,Antena de comunicacion 50m D hor (izq)
+L1040,87,31020.219999999998,31300.109999999997,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,88,31300.109999999997,31685.139999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,89,31685.139999999996,31881.769999999997,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,90,31881.769999999997,32201.879999999997,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,91,32201.879999999997,32461.809999999998,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,92,32461.809999999998,32798.509999999995,,Obstaculo,Otro,280.0,False,Vivienda 280 m. D. Horizontal (Der)
+L1040,93,32798.509999999995,33028.229999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,94,33028.229999999996,33388.189999999995,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,95,33388.189999999995,33849.27,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,96,33849.27,34040.409999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,97,34040.409999999996,34488.46,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,98,34488.46,34710.59,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,99,34710.59,35013.21,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,100,35013.21,35744.31,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,101,35744.31,36378.39,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,102,36378.39,36607.25,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,103,36607.25,36946.96,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,104,36946.96,37287.33,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,105,37287.33,37724.44,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,106,37724.44,38064.51,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,107,38064.51,38583.35,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,108,38583.35,38753.57,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,109,38753.57,39356.909999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,110,39356.909999999996,39759.149999999994,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,111,39759.149999999994,40047.52,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,112,40047.52,40317.259999999995,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,113,40317.259999999995,40607.06999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,114,40607.06999999999,40856.979999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,115,40856.979999999996,41217.079999999994,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,116,41217.079999999994,41783.70999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,117,41783.70999999999,42284.02999999999,,Obstaculo,Otro,280.0,False,Vivienda 280 m. D. Horizontal (Der)
+L1040,118,42284.02999999999,42603.78999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,119,42603.78999999999,43154.99999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,120,43154.99999999999,43494.829999999994,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,121,43494.829999999994,43834.909999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,122,43834.909999999996,44325.7,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,123,44325.7,44664.909999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,124,44664.909999999996,45154.95,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,125,45154.95,45390.24,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,126,45390.24,45794.95,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,127,45794.95,46214.74,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,128,46214.74,46588.979999999996,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,129,46588.979999999996,46909.03,,Obstaculo,Eriazo,,True,Eriazo
+L1040,130,46909.03,47059.57,,Obstaculo,Eriazo,,True,Eriazo
+L1040,131,47059.57,47458.15,,Obstaculo,Eriazo,,True,Eriazo
+L1040,132,47458.15,47930.770000000004,,Obstaculo,Eriazo,,True,Eriazo
+L1040,133,47930.770000000004,48216.200000000004,,Obstaculo,Eriazo,,True,Eriazo
+L1040,134,48216.200000000004,48566.98,,Obstaculo,Eriazo,,True,Eriazo
+L1040,135,48566.98,48796.9,,Obstaculo,Eriazo,,True,Eriazo
+L1040,136,48796.9,49116.98,,Obstaculo,Eriazo,,True,Eriazo
+L1040,137,49116.98,49546.96000000001,,Obstaculo,Eriazo,,True,Eriazo
+L1040,138,49546.96000000001,49847.26000000001,,Obstaculo,Eriazo,,True,Eriazo
+L1040,139,49847.26000000001,50244.93000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,140,50244.93000000001,50418.670000000006,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,141,50418.670000000006,50866.23,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,142,50866.23,51330.020000000004,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,143,51330.020000000004,51755.58,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,144,51755.58,52109.6,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,145,52109.6,52379.049999999996,,Obstaculo,Otro,283.0,False,Vivienda 283 m. D. Horizontal (Der)
+L1040,146,52379.049999999996,52567.509999999995,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,147,52567.509999999995,52797.689999999995,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,148,52797.689999999995,53178.24999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,149,53178.24999999999,53607.45999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,150,53607.45999999999,53936.869999999995,,Obstaculo,Otro,100.0,False,Vivienda 100m. D. Horizontal (Izq)
+L1040,151,53936.869999999995,54316.95,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,152,54316.95,54696.92,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,153,54696.92,54996.61,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,154,54996.61,55346.76,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,155,55346.76,55697.15,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,156,55697.15,56086.94,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,157,56086.94,56416.79,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,158,56416.79,56806.98,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,159,56806.98,57298.100000000006,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,159,56806.98,57298.100000000006,,Cruce,Otro,,True,Boca de represa
+L1040,160,57298.100000000006,57736.630000000005,,Obstaculo,Otro,260.0,False,Vivienda 260 m. D. Horizontal (Izq)
+L1040,161,57736.630000000005,58106.64000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,162,58106.64000000001,58386.61000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,163,58386.61000000001,58666.450000000004,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,164,58666.450000000004,58956.560000000005,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,165,58956.560000000005,59406.82000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,166,59406.82000000001,59589.40000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1040,167,59589.40000000001,59613.21000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1047,0,0.0,28.34,,Obstaculo,Otro,380.0,False,Vivienda 380 m. D. Horizontal (Der)
+L1047,1,28.34,170.64000000000001,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1047,2,170.64000000000001,520.28,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1047,3,520.28,865.23,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1047,4,865.23,1198.72,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1047,5,1198.72,1528.7,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1047,6,1528.7,1903.65,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1047,6,1528.7,1903.65,,Cruce,Carretera,,True,Cruce camino carrozable
+L1047,7,1903.65,2198.81,,Obstaculo,Eriazo,,True,Eriazo
+L1047,8,2198.81,2548.5699999999997,,Obstaculo,Eriazo,,True,Eriazo
+L1047,9,2548.5699999999997,2828.5199999999995,,Obstaculo,Eriazo,,True,Eriazo
+L1047,10,2828.5199999999995,3072.6599999999994,,Obstaculo,Eriazo,,True,Eriazo
+L1047,11,3072.6599999999994,3392.7299999999996,,Obstaculo,Eriazo,,True,Eriazo
+L1047,12,3392.7299999999996,3912.7499999999995,,Obstaculo,Eriazo,,True,Eriazo
+L1047,13,3912.7499999999995,4112.61,,Obstaculo,Eriazo,,True,Eriazo
+L1047,14,4112.61,4712.59,,Obstaculo,Eriazo,,True,Eriazo
+L1047,15,4712.59,5060.76,,Obstaculo,Eriazo,,True,Eriazo
+L1047,16,5060.76,5408.820000000001,,Obstaculo,Eriazo,,True,Eriazo
+L1047,17,5408.820000000001,5732.420000000001,,Obstaculo,Eriazo,,True,Eriazo
+L1047,18,5732.420000000001,6252.370000000001,,Obstaculo,Eriazo,,True,Eriazo
+L1047,19,6252.370000000001,6562.790000000001,,Obstaculo,Eriazo,,True,Eriazo
+L1047,20,6562.790000000001,6923.140000000001,,Obstaculo,Eriazo,,True,Eriazo
+L1047,21,6923.140000000001,7227.790000000001,,Obstaculo,Eriazo,,True,Eriazo
+L1047,22,7227.790000000001,7622.290000000001,,Obstaculo,Eriazo,,True,Eriazo
+L1047,23,7622.290000000001,8026.970000000001,,Obstaculo,Eriazo,,True,Eriazo
+L1047,24,8026.970000000001,8325.710000000001,,Obstaculo,Otro,22.0,False,Vivienda 22 m. D. Horizontal (Der)
+L1047,25,8325.710000000001,8775.28,,Obstaculo,Eriazo,,True,Eriazo
+L1047,26,8775.28,9121.92,,Obstaculo,Eriazo,,True,Eriazo
+L1047,27,9121.92,9402.13,,Obstaculo,Eriazo,,True,Eriazo
+L1047,28,9402.13,9731.9,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1047,29,9731.9,10122.14,,Obstaculo,Eriazo,,True,Eriazo
+L1047,30,10122.14,10278.859999999999,,Obstaculo,Eriazo,,True,Eriazo
+L1047,31,10278.859999999999,10585.71,,Obstaculo,Eriazo,,True,Eriazo
+L1047,31,10278.859999999999,10585.71,,Cruce,Carretera,,True,Cruce de carretera afirmada
+L1047,32,10585.71,10827.919999999998,,Obstaculo,Eriazo,,True,Eriazo
+L1047,33,10827.919999999998,11243.96,,Obstaculo,Eriazo,,True,Eriazo
+L1047,34,11243.96,11582.519999999999,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1047,35,11582.519999999999,11992.829999999998,,Obstaculo,Otro,350.0,False,Estancia  350 m. D. Horizontal (Izq)
+L1047,36,11992.829999999998,12398.329999999998,,Obstaculo,Pastizal,,True,Pastizal andino - pastoreo
+L1047,75,25618.02999999999,26072.30999999999,,Cruce,Carretera,,True,Cruce de carretera 200 mts adelante
+L1047,84,28886.53999999999,29212.36999999999,,Cruce,Otro,,True,Vano adelante cruce de línea MT unipolar a 8m de T85 y 6m Distancia entre conductores.
+L1047,120,41594.30999999999,41832.75999999999,,Cruce,Mineria,,True,Concesión Minera Ares.
+L1047,121,41832.75999999999,42062.97999999999,,Cruce,Mineria,,True,Concesión Minera Ares.
+L1047,122,42062.97999999999,42443.20999999999,,Cruce,Mineria,,True,Concesión Minera Ares.
+L1047,123,42443.20999999999,42742.60999999999,,Cruce,Mineria,,True,Concesión Minera Ares.
+L1047,124,42742.60999999999,43014.49999999999,,Cruce,Mineria,,True,Concesión Minera Ares.
+L1047,125,43014.49999999999,43329.49999999999,,Cruce,Mineria,,True,Concesión Minera Ares. Solicitar  permiso a la minera a traves del operador de SE Ares - CNS. (Ruben Aguilar 958009215;  ares@conelsur.com)
+L1047,126,43329.49999999999,43637.59999999999,,Cruce,Mineria,,True,Concesión Minera Ares. Solicitar  permiso a la minera a traves del operador de SE Ares - CNS. (Ruben Aguilar 958009215;  ares@conelsur.com)
+L1047,127,43637.59999999999,43952.009999999995,,Cruce,Mineria,,True,Concesión Minera Ares. Solicitar  permiso a la minera a traves del operador de SE Ares - CNS. (Ruben Aguilar 958009215;  ares@conelsur.com)
+L1047,128,43952.009999999995,44176.509999999995,,Cruce,Mineria,,True,Concesión Minera Ares. Solicitar  permiso a la minera a traves del operador de SE Ares - CNS. (Ruben Aguilar 958009215;  ares@conelsur.com)
+L1047,129,44176.509999999995,44202.009999999995,,Cruce,Mineria,,True,Concesión Minera Ares. Solicitar  permiso a la minera a traves del operador de SE Ares - CNS. (Ruben Aguilar 958009215;  ares@conelsur.com)
+L6643,1,41.0,156.0,,Cruce,Otro,,True,Arboles de Eucalipto y construcciones
+L6643,2,156.0,835.8,,Cruce,Otro,,True,Arboles de Eucalipto y construcciones
+L6643,14,4461.800000000001,4837.000000000001,,Cruce,Otro,,True,Arboles de Eucalipto y construcciones
+L6643,71,21995.900000000005,22518.500000000004,,Cruce,Otro,0.0,False,Zona con construcciones ( casas  bajo conductores)
+L6643,100,31188.5,31466.6,,Cruce,Otro,,True,Zona con construcciones ( casas y cerco colegio en la franja)
+L6643,101,31466.6,31853.5,,Cruce,Carretera,,True,Torre costado de colegio / cruce con carretera
+L2263,1,98.74,411.19,,Cruce,Carretera,,True,"* Cruce de pista pavimentada SECANOR  DV=16.632 m.
+* Cruce linea B.T a 1/4 de vano: suelo a L-220 kV DV=16.632 m.  suelo a L-baja DV= 10.07 m, L-baja a L-220kV DV=6.532 m.
+* Cruce con fibra optica a 1/4 de vano: suelo a L-220 kV DV=16.632 m, suelo a L-FO DV=5.384 m. L-FO a L-220kv DV=11.248 m."
+L2263,2,411.19,730.3199999999999,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,3,730.3199999999999,1084.29,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,4,1084.29,1434.31,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,5,1434.31,2129.97,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,6,2129.97,2502.0499999999997,,Cruce,Bosque,,True,"CRUCE DE TROCHA CARROZABLE, DT.100m, DV. 20.225m. Zona de bosque de  Pinos a costados de la franja"
+L2263,7,2502.0499999999997,3695.2999999999997,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,8,3695.2999999999997,3955.2799999999997,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,9,3955.2799999999997,4283.23,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,10,4283.23,4548.3099999999995,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,11,4548.3099999999995,5118.94,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,12,5118.94,5501.25,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,13,5501.25,6431.15,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,14,6431.15,7016.599999999999,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,15,7016.599999999999,7379.959999999999,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,16,7379.959999999999,7584.189999999999,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,17,7584.189999999999,8164.279999999999,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,18,8164.279999999999,8724.169999999998,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,19,8724.169999999998,9098.619999999999,,Cruce,Bosque,,True,Zona de bosque de  Pinos a costados de la franja
+L2263,25,11625.539999999997,12395.779999999997,,Cruce,Carretera,,True,"CRUCE DE CARRETERA A 300 m, DV=70 m"
+L2263,30,14316.769999999995,14893.439999999995,,Cruce,Otro,,True,A 1/4 DE VANO CERCO PERIMETRICO DE ALAMBRE DE PUAS ALTURA 1 MTS.
+L2263,31,14893.439999999995,15176.419999999995,,Cruce,Otro,,True,"CRUCE DE TROCHA CARROZABLE DT. 200 m, DV. 18.499 m"
+L2263,32,15176.419999999995,15451.289999999995,,Cruce,Otro,,True,"- CERCO DE PERIMETRO CON ALAMBRE DE PUAS A 1/2 VANO, ALTURA 1 m."
+L2263,37,17274.969999999998,17647.079999999998,,Cruce,Otro,,True,- ACEQUIA DE AGUA PASA POR LA PATA B Y C.
+L2263,39,18170.94,18394.199999999997,,Cruce,Carretera,,True,"* Zanja que discurre agua a 80 cm de la PATA C, hacer una plataforma de concreto para canal de agua.
+* CRUCE DE F.O. DV. 12.629 m
+* CRUCE DE CARRETERA DV. 13.12 m"
+L2263,41,18848.979999999996,19993.919999999995,,Cruce,Carretera,,True,"CRUCE DE TROCHA CARROZABLE A 50 m DE T42, DV. 60 m APROX.
+CRUCE DE F.O. DT. 250 m, D. DEL SUELO AL CONDUCTOR 37.131 m,D. DEL SUELO A F.O. 5.714 m
+CRUCE DE PISTA, TRAMO-1 DV. 37.31m DT. 250 m, TRAMO 02: DV. 32.968m, DT=350 m
+CRUCE DE F.O. DT. 350 m, D. DEL SUELO AL CONDUCTOR 32.968 m,D. DEL SUELO A F.O. 8.125 m"
+L2263,55,25118.989999999998,26019.019999999997,,Cruce,Otro,,True,HAY CERCO DE ALAMBRE DE PUAS PARA INGRESO T56 VANO ADELANTE
+L2263,56,26019.019999999997,26327.809999999998,,Cruce,Otro,,True,"INGRESO RESTRINGIDO CON VEHICULO, SOLICITAR PERMISO CON LA COMUNIDAD OXAMPA"
+L2263,57,26327.809999999998,26695.609999999997,,Cruce,Otro,,True,"* A 1/4 DE VANO CRUCE LINEA DE DISTRIBUCION: SUELO AL CABLE DV 5.221 MTS, SUELO AL CONDUCTO 220KV DV 20.923 MTS, DESDE EL CABLE AL CONDUCTOR 220 KV DV 15.772 MTS.
+* SOLICITAR AUTORIZACION A LA COMUNIDAD OXAPAMPA-EL EMPALME PARA INGRESO A LA ZONA, RESTRINGE EL INGRESO PORQUE HAY ROBOS DE SU GANADO."
+L2263,58,26695.609999999997,27249.999999999996,,Cruce,Otro,,True,"* CRUCE DE TROCHA CARROZABLE, DT. 100m, DV. 21.883.
+* VIVERO EM HOYADA, DT. 200 m, DV. 50 m.
+* SOLICITAR AUTORIZACION A LA COMUNIDAD OXAPAMPA-EL EMPALME PARA INGRESO A LA ZONA, RESTRINGE EL INGRESO PORQUE HAY ROBOS DE SU GANADO."
+L2263,59,27249.999999999996,27635.919999999995,,Cruce,Otro,,True,"* A 1/2 VANO CERCO PERIMETRO CON ALAMBRE DE PUAS ALTURA 1.5 m, D. DEL SUELO AL CONDUCTOR 24.967 m.
+* SOLICITAR AUTORIZACION A LA COMUNIDAD OXAPAMPA-EL EMPALME PARA INGRESO A LA ZONA, RESTRINGE EL INGRESO PORQUE HAY ROBOS DE SU GANADO."
+L2263,60,27635.919999999995,28318.689999999995,,Cruce,Otro,,True,"* SOLICITAR AUTORIZACION A LA COMUNIDAD OXAPAMPA-EL EMPALME PARA INGRESO A LA ZONA, RESTRINGE EL INGRESO PORQUE HAY ROBOS DE SU GANADO."
+L2263,61,28318.689999999995,28471.909999999996,,Cruce,Otro,,True,"* SOLICITAR AUTORIZACION A LA COMUNIDAD OXAPAMPA-EL EMPALME PARA INGRESO A LA ZONA, RESTRINGE EL INGRESO PORQUE HAY ROBOS DE SU GANADO."
+L2263,62,28471.909999999996,29404.069999999996,,Cruce,Otro,,True,"* SOLICITAR AUTORIZACION A LA COMUNIDAD OXAPAMPA-EL EMPALME PARA INGRESO A LA ZONA, RESTRINGE EL INGRESO PORQUE HAY ROBOS DE SU GANADO."
+L2263,71,33024.42999999999,33332.009999999995,,Cruce,Otro,,True,"* CRUCE LINEA BAJA TENSION A 3/4 DE VANO: SUELO A L-220 KV DV. 17.823 MTS, SUELO A L-BAJA DV. 4.762 MTS,  L-220KV A L-BAJA 13.061 MTS.
+*  CRUCE LINEA BAJA TENSION A 1/2 DE VANO: SUELO A L-220 KV DV. 34.405 MTS, SUELO A L-BAJA DV. 12.528 MTS,  DMS 220 KV 11.753 MTS( 1/4 DE VANO)."
+L2263,72,33332.009999999995,33943.7,,Cruce,Otro,,True,"* CRUCE DE CARRTERA PRINCIPAL DV. 4.9 m.
+* CRUCE DE F.O. DV. 6.59 m."
+L6648-6649,3,752.4200000000001,1160.79,,Cruce,Carretera,,True,Cruce de Carretera departamental. viciendas a los costados de la franja.
+L6648-6649,13,4696.6,5198.58,,Cruce,Bosque,0.0,False,zona de bosque de  pinos bajo conductores
+L6648-6649,14,5198.58,5589.61,,Cruce,Bosque,0.0,False,zona de bosque de  pinos bajo conductores
+L6648-6649,15,5589.61,5765.929999999999,,Cruce,Bosque,0.0,False,zona de bosque de  pinos bajo conductores
+L6648-6649,16,5765.929999999999,6416.759999999999,,Cruce,Bosque,0.0,False,zona de bosque de  pinos bajo conductores
+L6648-6649,23,8858.3,9425.289999999999,,Cruce,Mineria,,True,zona de extracción mina Yanacocha
+L6648-6649,24,9425.289999999999,9799.519999999999,,Cruce,Mineria,,True,zona de extracción mina Yanacocha
+L6648-6649,25,9799.519999999999,10193.64,,Cruce,Mineria,,True,zona de extracción mina Yanacocha
+L6648-6649,26,10193.64,10235.689999999999,,Cruce,Mineria,,True,zona de extracción mina Yanacocha
+L6648-6649,Port.,10235.689999999999,0.0,,Cruce,Mineria,,True,zona de extracción mina Yanacocha
+L6648-6649,3,752.4200000000001,1160.79,,Cruce,Carretera,,True,Cruce de Carretera departamental. viciendas a los costados de la franja.
+L6648-6649,13,4696.6,5198.58,,Cruce,Bosque,0.0,False,zona de bosque de  pinos bajo conductores
+L6648-6649,14,5198.58,5589.61,,Cruce,Bosque,0.0,False,zona de bosque de  pinos bajo conductores
+L6648-6649,15,5589.61,5765.929999999999,,Cruce,Bosque,0.0,False,zona de bosque de  pinos bajo conductores
+L6648-6649,16,5765.929999999999,6416.759999999999,,Cruce,Bosque,0.0,False,zona de bosque de  pinos bajo conductores
+L6648-6649,23,8858.3,9425.289999999999,,Cruce,Mineria,,True,zona de extracción mina Yanacocha
+L6648-6649,24,9425.289999999999,9799.519999999999,,Cruce,Mineria,,True,zona de extracción mina Yanacocha
+L6648-6649,25,9799.519999999999,10193.64,,Cruce,Mineria,,True,zona de extracción mina Yanacocha
+L6648-6649,26,10193.64,10235.689999999999,,Cruce,Mineria,,True,zona de extracción mina Yanacocha
+L6648-6649,Port.,10235.689999999999,,,Cruce,Mineria,,True,zona de extracción mina Yanacocha
