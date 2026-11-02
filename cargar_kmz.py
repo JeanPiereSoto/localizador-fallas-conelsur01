@@ -30,6 +30,7 @@ Todos los .kmz (líneas y subestaciones) pueden convivir en una sola carpeta
 del repositorio, p. ej. kmz/ — el nombre del archivo basta para clasificarlos.
 """
 
+import math
 import re
 import zipfile
 import xml.etree.ElementTree as ET
@@ -150,23 +151,128 @@ def _parsear_subestacion(ruta_kmz: Path):
     return None
 
 
+def _distancia_aprox_m(a, b):
+    """Distancia en metros entre dos (lat, lon) — aproximación plana local,
+    suficiente para tramos cortos (unir tramos, proyectar torres)."""
+    lat_media = math.radians((a[0] + b[0]) / 2)
+    dy = (a[0] - b[0]) * 111_320
+    dx = (a[1] - b[1]) * 111_320 * math.cos(lat_media)
+    return math.hypot(dx, dy)
+
+
+def _unir_tramos(segmentos, tolerancia_m=5.0):
+    """Muchos KMZ dibujan el trazado como decenas de <LineString> de 2 puntos
+    (torre a torre), en cualquier orden y sentido. Se unen por sus extremos
+    coincidentes (con una tolerancia de pocos metros) para obtener trazados
+    continuos. Devuelve una lista de cadenas [(lat, lon), ...]."""
+    pendientes = [list(s) for s in segmentos if len(s) >= 2]
+    cadenas = []
+    while pendientes:
+        cadena = pendientes.pop(0)
+        hubo_union = True
+        while hubo_union:
+            hubo_union = False
+            for i, seg in enumerate(pendientes):
+                if _distancia_aprox_m(cadena[-1], seg[0]) <= tolerancia_m:
+                    cadena = cadena + seg[1:]
+                elif _distancia_aprox_m(cadena[-1], seg[-1]) <= tolerancia_m:
+                    cadena = cadena + seg[::-1][1:]
+                elif _distancia_aprox_m(cadena[0], seg[-1]) <= tolerancia_m:
+                    cadena = seg[:-1] + cadena
+                elif _distancia_aprox_m(cadena[0], seg[0]) <= tolerancia_m:
+                    cadena = seg[::-1][:-1] + cadena
+                else:
+                    continue
+                pendientes.pop(i)
+                hubo_union = True
+                break
+        cadenas.append(cadena)
+    return cadenas
+
+
+def _longitud_m(cadena):
+    return sum(_distancia_aprox_m(cadena[i], cadena[i + 1]) for i in range(len(cadena) - 1))
+
+
+def _ruta_principal(cadenas):
+    """Encadena todos los trazados en una sola ruta ordenada (para medir la
+    progresiva de cada torre): parte del más largo y le va pegando, por el
+    extremo más cercano, el trazado restante más próximo."""
+    if not cadenas:
+        return []
+    restantes = sorted(cadenas, key=_longitud_m, reverse=True)
+    ruta = list(restantes.pop(0))
+    while restantes:
+        mejor = None
+        for i, c in enumerate(restantes):
+            opciones = (
+                (_distancia_aprox_m(ruta[-1], c[0]), i, "fin", c),
+                (_distancia_aprox_m(ruta[-1], c[-1]), i, "fin", c[::-1]),
+                (_distancia_aprox_m(ruta[0], c[-1]), i, "inicio", c),
+                (_distancia_aprox_m(ruta[0], c[0]), i, "inicio", c[::-1]),
+            )
+            for op in opciones:
+                if mejor is None or op[0] < mejor[0]:
+                    mejor = op
+        _, i, extremo, c = mejor
+        restantes.pop(i)
+        ruta = ruta + list(c) if extremo == "fin" else list(c) + ruta
+    return ruta
+
+
+def _progresiva_en_ruta(ruta, punto):
+    """Distancia (m) a lo largo de la ruta hasta la proyección del punto sobre
+    el tramo más cercano. Así el orden de las torres sale del recorrido real
+    dibujado en el KMZ, no del número escrito en su nombre."""
+    mejor_dist, mejor_prog = None, 0.0
+    acumulado = 0.0
+    k_lon = 111_320 * math.cos(math.radians(punto[0]))
+    px, py = punto[1] * k_lon, punto[0] * 111_320
+    for i in range(len(ruta) - 1):
+        ax, ay = ruta[i][1] * k_lon, ruta[i][0] * 111_320
+        bx, by = ruta[i + 1][1] * k_lon, ruta[i + 1][0] * 111_320
+        dx, dy = bx - ax, by - ay
+        largo2 = dx * dx + dy * dy
+        t = 0.0 if largo2 == 0 else max(0.0, min(1.0, ((px - ax) * dx + (py - ay) * dy) / largo2))
+        d = math.hypot(px - (ax + t * dx), py - (ay + t * dy))
+        largo = math.sqrt(largo2)
+        if mejor_dist is None or d < mejor_dist:
+            mejor_dist, mejor_prog = d, acumulado + t * largo
+        acumulado += largo
+    return mejor_prog
+
+
+def _numero_de_torre(nombre):
+    m = re.search(r"\d+", nombre)
+    return int(m.group()) if m else None
+
+
 def _parsear_linea(ruta_kmz: Path):
-    """Devuelve (nombre_linea, torres, subestaciones_inline, voltaje_kv, tipo).
+    """Devuelve (nombre_linea, torres, subestaciones_inline, voltaje_kv, tipo, trazados).
     torres: [(nombre, lat, lon), ...]  (excluye las que empiezan con 'SE ')
-    subestaciones_inline: [(nombre, lat, lon), ...]"""
+            ordenadas según su posición a lo largo del trazado real.
+    subestaciones_inline: [(nombre, lat, lon), ...]
+    trazados: [[(lat, lon), ...], ...] — el recorrido real de la línea tal
+              como viene en las <LineString> del KMZ (lo que se dibuja)."""
     nombre_linea = _nombre_mostrado_linea(ruta_kmz.stem)
     voltaje_kv, tipo = _info_desde_nombre_linea(ruta_kmz.stem)
     raiz = _leer_kml_de_kmz(ruta_kmz)
 
-    torres, subestaciones_inline = [], []
+    torres, subestaciones_inline, segmentos = [], [], []
     contador_sin_nombre = 0
-    coords_linestring = None
 
     for placemark in raiz.iter(f"{NS_KML}Placemark"):
         nombre_el = placemark.find(f"{NS_KML}name")
         nombre = nombre_el.text.strip() if nombre_el is not None and nombre_el.text else None
 
-        punto = placemark.find(f"{NS_KML}Point/{NS_KML}coordinates")
+        # Todas las <LineString> del Placemark (también dentro de <MultiGeometry>)
+        for coords_el in placemark.findall(f".//{NS_KML}LineString/{NS_KML}coordinates"):
+            if coords_el.text:
+                puntos = _coords_texto_a_latlon(coords_el.text)
+                if len(puntos) >= 2:
+                    segmentos.append(puntos)
+
+        punto = placemark.find(f".//{NS_KML}Point/{NS_KML}coordinates")
         if punto is not None and punto.text:
             puntos = _coords_texto_a_latlon(punto.text)
             if not puntos:
@@ -179,31 +285,45 @@ def _parsear_linea(ruta_kmz: Path):
                 subestaciones_inline.append((nombre, lat, lon))
             else:
                 torres.append((nombre, lat, lon))
-            continue
 
-        # Cables subterráneos: no suele haber Point por tramo, solo el trazado.
-        # Se guarda como respaldo por si no aparece ningún Point en todo el archivo.
-        linea_str = placemark.find(f"{NS_KML}LineString/{NS_KML}coordinates")
-        if linea_str is not None and linea_str.text and coords_linestring is None:
-            puntos = _coords_texto_a_latlon(linea_str.text)
-            if len(puntos) >= 2:
-                coords_linestring = puntos
+    trazados = _unir_tramos(segmentos)
+    ruta = _ruta_principal(trazados)
 
-    if not torres and coords_linestring:
-        torres = [(f"T{i + 1:02d}", lat, lon) for i, (lat, lon) in enumerate(coords_linestring)]
+    if not torres and ruta:
+        # Cables subterráneos y tramos cortos: no suele haber Point por
+        # torre, solo el trazado. Se usan sus vértices (ya en orden).
+        torres = [(f"T{i + 1:02d}", lat, lon) for i, (lat, lon) in enumerate(ruta)]
+    elif len(torres) < 2 and len(ruta) >= 2:
+        # Una sola torre marcada pero con trazado: se usan los vértices del
+        # trazado, conservando el nombre de la torre en el vértice que le
+        # corresponde (si está a menos de 15 m).
+        nuevas = []
+        for i, (lat, lon) in enumerate(ruta):
+            nombre = f"V{i + 1:02d}"
+            for nombre_t, lat_t, lon_t in torres:
+                if _distancia_aprox_m((lat, lon), (lat_t, lon_t)) <= 15:
+                    nombre = nombre_t
+            nuevas.append((nombre, lat, lon))
+        torres = nuevas
+    elif len(torres) >= 2 and len(ruta) >= 2:
+        # El orden de los Placemark en el KMZ no es el del recorrido, y el
+        # número del nombre tampoco sirve (TA-12, PMB-76, TCC7N1, numeración
+        # descendente, prefijos mezclados...). Se ordena por la posición de
+        # cada torre a lo largo del trazado real.
+        torres.sort(key=lambda t: _progresiva_en_ruta(ruta, (t[1], t[2])))
+        # Sentido: se mantiene la convención de empezar por la torre de menor
+        # número si la numeración va mayoritariamente al revés.
+        numeros = [_numero_de_torre(t[0]) for t in torres]
+        pares = [(a, b) for a, b in zip(numeros, numeros[1:]) if a is not None and b is not None]
+        if sum(b < a for a, b in pares) > sum(b > a for a, b in pares):
+            torres.reverse()
+    else:
+        # Sin trazado para guiarse: último recurso, el número de la torre.
+        torres.sort(key=lambda t: (
+            _numero_de_torre(t[0]) if _numero_de_torre(t[0]) is not None else 10**9, t[0]
+        ))
 
-    # El orden en que aparecen los Placemark en el KMZ no siempre coincide con
-    # el orden físico real del recorrido (según cómo se digitalizó el archivo),
-    # lo que puede producir un trazado en zigzag. El número de torre (T01,
-    # T02, ..., T312) sí refleja la secuencia real, así que se ordena por ahí.
-    def _clave_orden_torre(torre):
-        nombre = torre[0]
-        m = re.search(r"\d+", nombre)
-        return (int(m.group()), nombre) if m else (10**9, nombre)
-
-    torres.sort(key=_clave_orden_torre)
-
-    return nombre_linea, torres, subestaciones_inline, voltaje_kv, tipo
+    return nombre_linea, torres, subestaciones_inline, voltaje_kv, tipo, trazados
 
 
 @st.cache_data(ttl=3600, show_spinner="Leyendo archivos KMZ (líneas y subestaciones)...")
@@ -215,6 +335,8 @@ def cargar_lineas_y_subestaciones_kmz(carpeta: str = "kmz"):
       subestaciones: dict {nombre: {"lat", "lon", "voltaje_kv", "poligono"}}
                       poligono es [(lat, lon), ...] del contorno real, o None
       info_lineas: dict {nombre_linea: {"voltaje_kv": int|None, "tipo": str|None}}
+      trazados_lineas: dict {nombre_linea: [[(lat, lon), ...], ...]} — el
+                       recorrido real de cada línea según sus <LineString>
     """
     carpeta_path = Path(carpeta)
     archivos_kmz = sorted(carpeta_path.glob("*.kmz"))
@@ -227,6 +349,7 @@ def cargar_lineas_y_subestaciones_kmz(carpeta: str = "kmz"):
     registros_torres = []
     subestaciones = {}
     info_lineas = {}
+    trazados_lineas = {}
     archivos_con_error = []
 
     # 1) Primero las subestaciones "oficiales" (con polígono y voltaje confirmado)
@@ -258,7 +381,12 @@ def cargar_lineas_y_subestaciones_kmz(carpeta: str = "kmz"):
             # lo que dibuja una línea recta artificial en vez del trazado real.
             continue
         try:
-            nombre_linea, torres, subestaciones_inline, voltaje_kv, tipo = _parsear_linea(ruta)
+            nombre_linea, torres, subestaciones_inline, voltaje_kv, tipo, trazados = _parsear_linea(ruta)
+            # La versión aérea (_A) y la subterránea (_S) de un mismo circuito
+            # dan el mismo nombre; sin distinguirlas, sus puntos se mezclaban
+            # en un solo grupo y se dibujaban saltos rectos entre ambas.
+            if tipo == "Subterránea":
+                nombre_linea = f"{nombre_linea} (Subterránea)"
             if not torres:
                 archivos_con_error.append(f"{ruta.name} (sin torres ni trazado reconocible)")
                 continue
@@ -272,6 +400,7 @@ def cargar_lineas_y_subestaciones_kmz(carpeta: str = "kmz"):
                         "lat": lat, "lon": lon, "voltaje_kv": None, "poligono": None,
                     }
             info_lineas[nombre_linea] = {"voltaje_kv": voltaje_kv, "tipo": tipo}
+            trazados_lineas[nombre_linea] = trazados
         except Exception as e:
             archivos_con_error.append(f"{ruta.name} ({e})")
 
@@ -284,4 +413,4 @@ def cargar_lineas_y_subestaciones_kmz(carpeta: str = "kmz"):
     df_torres["Torre"] = df_torres["Torre"].astype(str).str.strip()
     df_torres = df_torres.dropna(subset=["Latitud", "Longitud"]).reset_index(drop=True)
 
-    return df_torres, subestaciones, info_lineas
+    return df_torres, subestaciones, info_lineas, trazados_lineas

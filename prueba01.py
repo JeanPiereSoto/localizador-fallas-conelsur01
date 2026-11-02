@@ -57,8 +57,17 @@ with _col_switch:
 
 ESTILOS_MAPBOX = {
     "Calle": "mapbox://styles/mapbox/streets-v12",
-    "Satélite": "mapbox://styles/mapbox/satellite-streets-v12",
 }
+
+# Imágenes satelitales de Esri World Imagery: públicas, sin token ni cuota
+# de Mapbox. Antes se usaba "satellite-streets-v12" de Mapbox, pero el
+# componente de mapas de Streamlit trae mapbox-gl 1.13, que no carga bien
+# los estilos v12, y además dependía del token/cuota (errores 429): el
+# resultado era la pantalla en negro al elegir "Satélite".
+URL_TESELAS_SATELITE = (
+    "https://server.arcgisonline.com/ArcGIS/rest/services/"
+    "World_Imagery/MapServer/tile/{z}/{y}/{x}"
+)
 
 # Tokens de color que cambian según el modo. Los colores de marca
 # (AZUL_CONELSUR, VERDE_CONELSUR) se mantienen fijos — se usan también
@@ -704,9 +713,10 @@ def construir_subestaciones(datos_lineas):
 # =========================================================
 filas_descartadas = 0
 info_lineas = {}  # nombre_linea -> {"voltaje_kv": int|None, "tipo": "Aérea"|"Subterránea"|None}
+trazados_lineas = {}  # nombre_linea -> [[(lat, lon), ...], ...] recorrido real del KMZ
 
 if Path("kmz").is_dir() and any(Path("kmz").glob("*.kmz")):
-    df, subestaciones, info_lineas = cargar_lineas_y_subestaciones_kmz("kmz")
+    df, subestaciones, info_lineas, trazados_lineas = cargar_lineas_y_subestaciones_kmz("kmz")
     fuente_datos = "kmz"
 else:
     df = pd.read_excel("consolidado_total.xlsx")
@@ -1025,6 +1035,16 @@ with col_mapa:
             return [coords_lonlat]
         return [coords_lonlat[i:i + 2] for i in range(0, len(coords_lonlat) - 1, 2)]
 
+    def _recorridos_linea(nombre_linea, df_torres_linea):
+        """Recorrido a dibujar, en [lon, lat]: el trazado real del KMZ (sus
+        <LineString>) si existe; si no, la unión de las torres en orden.
+        Antes siempre se unían las torres, y cuando su orden no coincidía
+        con el recorrido real aparecían líneas rectas que cruzaban el mapa."""
+        trazados = trazados_lineas.get(nombre_linea)
+        if trazados:
+            return [[[lon, lat] for lat, lon in cadena] for cadena in trazados]
+        return [df_torres_linea[["Longitud", "Latitud"]].values.tolist()]
+
     # ---------------------------------------------------
     # Todas las demás líneas, coloreadas por nivel de tensión
     # ---------------------------------------------------
@@ -1037,7 +1057,8 @@ with col_mapa:
         }
         for nombre_linea, grupo_linea in datos_lineas.items()
         if nombre_linea != linea_seleccionada
-        for tramo in _tramos_linea(grupo_linea[["Longitud", "Latitud"]].values.tolist(), nombre_linea)
+        for recorrido in _recorridos_linea(nombre_linea, grupo_linea)
+        for tramo in _tramos_linea(recorrido, nombre_linea)
     ]
     capas_pydeck.append(
         pdk.Layer(
@@ -1063,7 +1084,8 @@ with col_mapa:
             "nombre": f"Línea: {linea_seleccionada}",
             "info": _info_voltaje_linea(linea_seleccionada),
         }
-        for tramo in _tramos_linea(df_linea[["Longitud", "Latitud"]].values.tolist(), linea_seleccionada)
+        for recorrido in _recorridos_linea(linea_seleccionada, df_linea)
+        for tramo in _tramos_linea(recorrido, linea_seleccionada)
     ]
     capas_pydeck.append(
         pdk.Layer(
@@ -1353,17 +1375,47 @@ with col_mapa:
         token_mapbox = st.secrets["mapbox"]["token"]
     except Exception:
         token_mapbox = None
-        st.warning(
-            "⚠️ Falta configurar el token de Mapbox en Settings → Secrets de "
-            "Streamlit Cloud — el mapa satelital no cargará sin eso."
+        if vista_mapa != "Satélite":
+            st.warning(
+                "⚠️ Falta configurar el token de Mapbox en Settings → Secrets de "
+                "Streamlit Cloud — la vista Calle no cargará sin eso."
+            )
+
+    if vista_mapa == "Satélite":
+        # TerrainLayer es la capa de teselas raster que Streamlit puede
+        # dibujar sin JavaScript propio. Se usa la misma imagen como
+        # "elevación" con el decodificador en cero: el terreno queda plano
+        # (las líneas no quedan tapadas por los cerros) y el navegador
+        # reutiliza la descarga de cada tesela.
+        capa_satelite = pdk.Layer(
+            "TerrainLayer",
+            id="fondo-satelital",
+            elevation_data=URL_TESELAS_SATELITE,
+            texture=URL_TESELAS_SATELITE,
+            elevation_decoder={"rScaler": 0, "gScaler": 0, "bScaler": 0, "offset": 0},
+            min_zoom=0,
+            max_zoom=19,
+            tile_size=256,
+            mesh_max_error=4,
+            # Se dibuja siempre detrás de las demás capas (sin pelear por la
+            # profundidad con las líneas, que también están a altura 0).
+            parameters={"depthCompare": "always", "depthWriteEnabled": False},
+            pickable=False,
         )
+        capas_mapa = [capa_satelite] + capas_pydeck
+        proveedor_mapa, estilo_mapa, claves_mapa = "carto", "light", None
+    else:
+        capas_mapa = capas_pydeck
+        proveedor_mapa = "mapbox"
+        estilo_mapa = ESTILOS_MAPBOX[vista_mapa]
+        claves_mapa = {"mapbox": token_mapbox} if token_mapbox else None
 
     mapa_deck = pdk.Deck(
-        layers=capas_pydeck,
+        layers=capas_mapa,
         initial_view_state=vista_inicial,
-        map_provider="mapbox",
-        map_style=ESTILOS_MAPBOX[vista_mapa],
-        api_keys={"mapbox": token_mapbox} if token_mapbox else None,
+        map_provider=proveedor_mapa,
+        map_style=estilo_mapa,
+        api_keys=claves_mapa,
         tooltip={
             "html": "<b>{nombre}</b>{info}",
             "style": {
